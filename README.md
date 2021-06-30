@@ -4,3 +4,5 @@
 Building project :
 
 `./premake5 vs2019`
+
+And have fun !
