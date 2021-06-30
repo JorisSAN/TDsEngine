@@ -1,0 +1,12 @@
+[submodule "glfw"]
+	path = externals/glfw
+	url = https://github.com/glfw/glfw
+[submodule "bx"]
+	path = externals/bx
+	url = https://github.com/bkaradzic/bx
+[submodule "bimg"]
+	path = externals/bimg
+	url = https://github.com/bkaradzic/bimg/
+[submodule "bgfx"]
+	path = externals/bgfx
+	url = https://github.com/bkaradzic/bgfx/
