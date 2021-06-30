@@ -7,6 +7,7 @@ local BIMG_DIR = "externals/bimg"
 local BX_DIR = "externals/bx"
 local GLFW_DIR = "externals/glfw"
 local ENGINE_DIR = "src"
+local ASSETS_DIR = "assets"
 
 solution "TDEngine"
 	location(BUILD_DIR)
@@ -57,7 +58,7 @@ project "Engine"
 	}
 	includedirs
 	{
-		path.join(ENGINE_DIR, "assets"),
+		path.join(ASSETS_DIR),
 		path.join(BGFX_DIR, "include"),
 		path.join(BX_DIR, "include"),
 		path.join(GLFW_DIR, "include")
