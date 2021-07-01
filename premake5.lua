@@ -53,8 +53,7 @@ project "Engine"
 	rtti "Off"
 	files
 	{
-		path.join(ENGINE_DIR, "sourceFiles/*.cpp"),
-		path.join(ENGINE_DIR, "headerFIles/*.h")
+		path.join(ENGINE_DIR, "*")
 	}
 	includedirs
 	{
