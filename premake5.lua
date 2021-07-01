@@ -9,7 +9,7 @@ local GLFW_DIR = "externals/glfw"
 local ENGINE_DIR = "src"
 local ASSETS_DIR = "assets"
 
-solution "TDEngine"
+solution "TDsEngine"
 	location(BUILD_DIR)
 	startproject "Engine"
 	configurations { "Release", "Debug" }
@@ -59,6 +59,7 @@ project "Engine"
 	{
 		path.join(ASSETS_DIR),
 		path.join(BGFX_DIR, "include"),
+		path.join(BGFX_DIR, "3rdparty"),
 		path.join(BX_DIR, "include"),
 		path.join(GLFW_DIR, "include")
 	}
