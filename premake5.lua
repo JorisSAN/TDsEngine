@@ -6,6 +6,7 @@ local BGFX_DIR = "externals/bgfx"
 local BIMG_DIR = "externals/bimg"
 local BX_DIR = "externals/bx"
 local GLFW_DIR = "externals/glfw"
+local IMGUI_DIR = "externals/Imgui"
 local ENGINE_DIR = "src"
 local ASSETS_DIR = "assets"
 
@@ -60,6 +61,7 @@ project "Engine"
 		path.join(ASSETS_DIR),
 		path.join(BGFX_DIR, "include"),
 		path.join(BGFX_DIR, "3rdparty"),
+		path.join(BGFX_DIR, "examples/common/imgui"),
 		path.join(BX_DIR, "include"),
 		path.join(GLFW_DIR, "include")
 	}

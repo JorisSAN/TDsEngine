@@ -1,55 +1,65 @@
-#include <stdio.h>
-#include "bgfx/bgfx.h"
-#include "bgfx/platform.h"
-#include "bx/math.h"
-#include "GLFW/glfw3.h"
-#if BX_PLATFORM_LINUX
-#define GLFW_EXPOSE_NATIVE_X11
-#elif BX_PLATFORM_WINDOWS
-#define GLFW_EXPOSE_NATIVE_WIN32
-#elif BX_PLATFORM_OSX
-#define GLFW_EXPOSE_NATIVE_COCOA
-#endif
-#include "GLFW/glfw3native.h"
 #include "EngineUtils.h"
 #include "Window.h"
+#include "Cube.h"
 
 #define WNDW_WIDTH 1024
 #define WNDW_HEIGHT 768
 
+struct MouseButton
+{
+    enum Enum
+    {
+        None,
+        Left,
+        Middle,
+        Right,
+
+        Count
+    };
+};
+
+struct MouseState
+{
+    MouseState()
+        : m_mx(0)
+        , m_my(0)
+        , m_mz(0)
+    {
+        for (uint32_t ii = 0; ii < MouseButton::Count; ++ii)
+        {
+            m_buttons[ii] = MouseButton::None;
+        }
+    }
+
+    int32_t m_mx;
+    int32_t m_my;
+    int32_t m_mz;
+    uint8_t m_buttons[MouseButton::Count];
+};
+
 int main(void)
 {
+    // Window creation
     Window window(WNDW_WIDTH, WNDW_HEIGHT);
+    // test problems on window's init
     if (window.init() == 1) {
         return 1;
     }
 
-    /*
-    -------------------------------------------------
-        CUBE CREATION
-    -------------------------------------------------
-    */
-    bgfx::VertexLayout pcvDecl;
-    pcvDecl.begin()
-        .add(bgfx::Attrib::Position, 3, bgfx::AttribType::Float)
-        .add(bgfx::Attrib::Color0, 4, bgfx::AttribType::Uint8, true)
-        .end();
-    bgfx::VertexBufferHandle vbh = bgfx::createVertexBuffer(bgfx::makeRef(cubeVertices, sizeof(cubeVertices)), pcvDecl);
-    bgfx::IndexBufferHandle ibh = bgfx::createIndexBuffer(bgfx::makeRef(cubeTriList, sizeof(cubeTriList)));
+    // Creation of a cube
+    Cube cube;
+    // Init the cube
+    cube.init();
 
-    bgfx::ShaderHandle vsh = loadShader("vs_cubes.bin");
-    bgfx::ShaderHandle fsh = loadShader("fs_cubes.bin");
-    bgfx::ProgramHandle program = bgfx::createProgram(vsh, fsh, true);
-    /*
-    -------------------------------------------------
-    */
+    MouseState mouseState;
 
-    unsigned int counter = 0;
     while (!window.windowShouldClose()) {
+        // update the window (clear, resize, ...)
         window.update();
+
         /*
         -------------------------------------------------
-            CUBE UPDATE
+            View update
         -------------------------------------------------
         */
         const bx::Vec3 at = { 0.0f, 0.0f,  0.0f };
@@ -59,33 +69,24 @@ int main(void)
         float proj[16];
         bx::mtxProj(proj, 60.0f, float(window.getWidth()) / float(window.getHeight()), 0.1f, 100.0f, bgfx::getCaps()->homogeneousDepth);
         bgfx::setViewTransform(0, view, proj);
-
-        float mtx[16];
-        bx::mtxRotateXY(mtx, counter * 0.01f, counter * 0.01f);
-        bgfx::setTransform(mtx);
-
-        bgfx::setVertexBuffer(0, vbh);
-        bgfx::setIndexBuffer(ibh);
-
-        bgfx::submit(0, program);
-        bgfx::frame();
-        counter++;
         /*
         -------------------------------------------------
         */
+
+        // Cube update
+        cube.update();
+
+        // Go to the next frame
+        bgfx::frame();
     }
 
-    /*
-    -------------------------------------------------
-        DESTROY FOR KILL PROGRAM
-    -------------------------------------------------
-    */
-    bgfx::destroy(ibh);
-    bgfx::destroy(vbh);
+    // Always in this order
+    // Destroy the cube
+    cube.shutdown();
+    // Shutdown bgfx
     bgfx::shutdown();
+    // Destroy the window
     window.shutdown();
-    /*
-    -------------------------------------------------
-    */
+
     return 0;
 }
