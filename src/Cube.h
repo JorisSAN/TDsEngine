@@ -1,17 +1,15 @@
 #pragma once
 #include "bgfx/bgfx.h"
+#include "Component.h"
 
-class Cube
+class Cube : public Component
 {
 public:
-	void init();
-	void update();
-	void shutdown();
+	void init()			override;
+	void update()		override;
+	void destroy()		override;
 
 private:
-	bgfx::VertexBufferHandle	m_vbh;
-	bgfx::IndexBufferHandle		m_ibh;
-	bgfx::ProgramHandle			m_program;
-	int64_t						m_timeOffset;
+	int64_t	m_timeOffset;
 };
 

@@ -2,6 +2,7 @@
 #include "EngineUtils.h"
 #include "bx/math.h"
 #include "bx/timer.h"
+#include <iostream>
 
 struct PosColorVertex
 {
@@ -66,8 +67,6 @@ void Cube::update() {
     bgfx::submit(0, m_program);
 }
 
-void Cube::shutdown() {
-    bgfx::destroy(m_ibh);
-    bgfx::destroy(m_vbh);
-    bgfx::destroy(m_program);
+void Cube::destroy() {
+    Component::destroy();
 }

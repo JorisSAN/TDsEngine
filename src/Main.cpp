@@ -1,6 +1,9 @@
 #include "EngineUtils.h"
 #include "Window.h"
+#include "Actor.h"
+#include "Component.h"
 #include "Cube.h"
+#include <iostream>
 
 #define WNDW_WIDTH 1024
 #define WNDW_HEIGHT 768
@@ -48,8 +51,13 @@ int main(void)
 
     // Creation of a cube
     Cube cube;
-    // Init the cube
-    cube.init();
+    std::vector<Component*> vComponent;
+    vComponent.emplace_back(&cube);
+
+    // Creation of an Actor
+    Actor a(vComponent);
+    // Init the Actor
+    a.init();
 
     MouseState mouseState;
 
@@ -73,16 +81,16 @@ int main(void)
         -------------------------------------------------
         */
 
-        // Cube update
-        cube.update();
+        // Actor update
+        a.update();
 
         // Go to the next frame
         bgfx::frame();
     }
 
     // Always in this order
-    // Destroy the cube
-    cube.shutdown();
+    // Destroy the actor
+    a.destroy();
     // Shutdown bgfx
     bgfx::shutdown();
     // Destroy the window
