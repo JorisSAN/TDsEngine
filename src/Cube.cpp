@@ -57,14 +57,10 @@ void Cube::init() {
 
 void Cube::update() {
     float time = (float)((bx::getHPCounter() - m_timeOffset) / double(bx::getHPFrequency()));
-    float mtx[16];
-    bx::mtxRotateXY(mtx, time, time);
-    bgfx::setTransform(mtx);
 
-    bgfx::setVertexBuffer(0, m_vbh);
-    bgfx::setIndexBuffer(m_ibh);
+    setRotation(time * 90, time * 90, 0);
 
-    bgfx::submit(0, m_program);
+    computeTransform();
 }
 
 void Cube::destroy() {

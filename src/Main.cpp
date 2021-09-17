@@ -1,6 +1,6 @@
 #include "EngineUtils.h"
 #include "Window.h"
-#include "Actor.h"
+#include "Game.h"
 #include "Component.h"
 #include "Cube.h"
 #include <iostream>
@@ -55,9 +55,8 @@ int main(void)
     vComponent.emplace_back(&cube);
 
     // Creation of an Actor
-    Actor a(vComponent);
-    // Init the Actor
-    a.init();
+    Actor actor(vComponent);
+    actor.init();
 
     MouseState mouseState;
 
@@ -67,7 +66,7 @@ int main(void)
 
         /*
         -------------------------------------------------
-            View update
+            Camera View update
         -------------------------------------------------
         */
         const bx::Vec3 at = { 0.0f, 0.0f,  0.0f };
@@ -75,23 +74,21 @@ int main(void)
         float view[16];
         bx::mtxLookAt(view, eye, at);
         float proj[16];
-        bx::mtxProj(proj, 60.0f, float(window.getWidth()) / float(window.getHeight()), 0.1f, 100.0f, bgfx::getCaps()->homogeneousDepth);
+        bx::mtxProj(proj, 90.0f, float(window.getWidth()) / float(window.getHeight()), 0.1f, 100.0f, bgfx::getCaps()->homogeneousDepth);
         bgfx::setViewTransform(0, view, proj);
         /*
         -------------------------------------------------
         */
 
         // Actor update
-        a.update();
+        actor.update();
 
         // Go to the next frame
         bgfx::frame();
     }
 
-    // Always in this order
-    // Destroy the actor
-    a.destroy();
-    // Shutdown bgfx
+    // destroy the game
+    actor.destroy();
     bgfx::shutdown();
     // Destroy the window
     window.shutdown();
