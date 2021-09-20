@@ -40,7 +40,17 @@ static const uint16_t cubeTriList[] =
     6, 3, 7,
 };
 
+Cube::Cube(Actor* ownerP) :
+    Component(ownerP)
+{
+}
+
+Cube::~Cube() {
+    destroy();
+}
+
 void Cube::init() {
+    Component::init();
     bgfx::VertexLayout pcvDecl;
     pcvDecl.begin()
         .add(bgfx::Attrib::Position, 3, bgfx::AttribType::Float)

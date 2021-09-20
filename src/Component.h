@@ -1,11 +1,18 @@
 #pragma once
 #include "bgfx/bgfx.h"
+#include "Actor.h"
 #include"Quaternion.h"
 
 class Component
 {
 public:
-	virtual void init()		{}
+	Component(Actor* ownerP, int updateOrderP = 100);
+	Component() = delete;
+	virtual ~Component();
+	Component(const Component&) = delete;
+	Component& operator=(const Component&) = delete;
+
+	virtual void init() { isInit = true; }
 	virtual void update()	{}
 	virtual void destroy();
 
@@ -18,11 +25,14 @@ public:
 	void	setRotation(float* rot);
 	void	setRotation(float x, float y, float z);
 
-	float* getPosition()	{ return m_position;	}
-	float* getScale()		{ return m_scale;		}
-	float* getRotation()	{ return m_rotation;	}
+	float*	getPosition()			{ return m_position;	}
+	float*	getScale()				{ return m_scale;		}
+	float*	getRotation()			{ return m_rotation;	}
+	int		getUpdateOrder() const	{ return updateOrder;	}
 
 protected:
+	Actor&						owner;
+	int							updateOrder;
 	bgfx::VertexBufferHandle	m_vbh;
 	bgfx::IndexBufferHandle		m_ibh;
 	bgfx::ProgramHandle			m_program;
@@ -33,4 +43,5 @@ private:
 	float		m_scale[3] =	{ 1, 1, 1 };
 	float		m_rotation[3] = { 0, 0, 0 }; // angle in degrees
 	Quaternion	m_rotation_by_quaternion;
+	bool		isInit = false;
 };

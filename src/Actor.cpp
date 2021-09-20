@@ -1,11 +1,15 @@
 #include "Actor.h"
+#include "Component.h"
+#include "Game.h"
 
-Actor::Actor(std::vector<Component*> comp) {
-	components = comp;
+Actor::Actor() :
+	game(Game::instance())
+{
+	game.addActor(this);
 }
 
 Actor::~Actor() {
-	this->destroy();
+	destroy();
 }
 
 void Actor::setWorldPosition(float* pos) {
@@ -33,8 +37,32 @@ void Actor::update() {
 }
 
 void Actor::destroy() {
-	for (auto c : components) {
-		c->destroy(); 
-	}
 	components.clear();
+}
+
+void Actor::addComponent(Component* component)
+{
+	// Find the insertion point in the sorted vector
+	// (The first element with a order higher than me)
+	int myOrder = component->getUpdateOrder();
+	auto iter = begin(components);
+	for (; iter != end(components); ++iter)
+	{
+		if (myOrder < (*iter)->getUpdateOrder())
+		{
+			break;
+		}
+	}
+
+	// Inserts element before position of iterator
+	components.insert(iter, component);
+}
+
+void Actor::removeComponent(Component* component)
+{
+	auto iter = std::find(begin(components), end(components), component);
+	if (iter != end(components))
+	{
+		components.erase(iter);
+	}
 }

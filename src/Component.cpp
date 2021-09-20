@@ -2,10 +2,24 @@
 #include "MathMatrix.h"
 #include "Maths.h"
 
+Component::Component(Actor* ownerP, int updateOrderP) :
+    owner(*ownerP),
+    updateOrder(updateOrderP)
+{
+    owner.addComponent(this);
+}
+
+Component::~Component() {
+    owner.removeComponent(this);
+    destroy();
+}
+
 void Component::destroy() {
-    bgfx::destroy(m_ibh);
-    bgfx::destroy(m_vbh);
-    bgfx::destroy(m_program);
+    if (isInit) {
+        bgfx::destroy(m_ibh);
+        bgfx::destroy(m_vbh);
+        bgfx::destroy(m_program);
+    }
 }
 
 void Component::computeTransform() {

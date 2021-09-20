@@ -15,9 +15,9 @@ static void glfw_keyCallback(GLFWwindow* window, int key, int scancode, int acti
         s_showStats = !s_showStats;
 }
 
-Window::Window(int width, int height) :
-    width(width),
-    height(height)
+Window::Window() :
+    width(WNDW_WIDTH),
+    height(WNDW_HEIGHT)
 {
 
 }
@@ -33,7 +33,7 @@ int Window::init() {
     glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);
 
     // Window creation (width, height, windowName, null, null)
-    window = glfwCreateWindow(width, height, "TDsEngine", NULL, NULL);
+    window = glfwCreateWindow(width, height, "TDs Engine", NULL, NULL);
     if (!window)
         return 1;
 

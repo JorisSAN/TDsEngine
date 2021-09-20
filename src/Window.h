@@ -10,10 +10,13 @@
 #endif
 #include "GLFW/glfw3native.h"
 
+#define WNDW_WIDTH 1024
+#define WNDW_HEIGHT 768
+
 class Window
 {
 public:
-	Window(int width, int height);
+	Window();
 	~Window();
 
 	int init();
