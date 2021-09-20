@@ -46,6 +46,7 @@ Cube::Cube(Actor* ownerP) :
 }
 
 Cube::~Cube() {
+    Component::~Component();
     destroy();
 }
 
