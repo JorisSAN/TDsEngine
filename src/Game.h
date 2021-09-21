@@ -69,5 +69,7 @@ private:
 
 	std::vector<Actor*> actors;
 	std::vector<Actor*> pendingActors;
+
+	int64_t	m_timeOffset;
 };
 

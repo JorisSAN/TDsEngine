@@ -1,7 +1,7 @@
 #pragma once
 #include "bgfx/bgfx.h"
 #include "Actor.h"
-#include"Quaternion.h"
+#include "Quaternion.h"
 
 class Component
 {
@@ -12,8 +12,8 @@ public:
 	Component(const Component&) = delete;
 	Component& operator=(const Component&) = delete;
 
-	virtual void init() { isInit = true; }
-	virtual void update()	{}
+	virtual void init()		{ isInit = true;		}
+	virtual void update()	{ computeTransform();	}
 	virtual void destroy();
 
 	void computeTransform();
@@ -39,6 +39,7 @@ protected:
 	float						m_matrix[16];
 
 private:
+	char		name[20];
 	float		m_position[3] = { 0, 0, 0 };
 	float		m_scale[3] =	{ 1, 1, 1 };
 	float		m_rotation[3] = { 0, 0, 0 }; // angle in degrees

@@ -13,6 +13,11 @@ void Game::load() {
 
     // Creation of a cube
     Cube* cube = new Cube(actor);
+    Cube* cube2 = new Cube(actor);
+
+    cube2->setPosition(5, 5, 5);
+
+    actor->setWorldPosition(0, 0, 10);
 
     // add to all actor of the game
     actors.push_back(actor);
@@ -21,6 +26,8 @@ void Game::load() {
     for (auto a : actors) {
         a->init();
     }
+
+    m_timeOffset = bx::getHPCounter();
 }
 
 void Game::loop() {
@@ -44,8 +51,11 @@ void Game::loop() {
         -------------------------------------------------
         */
 
+        float time = (float)((bx::getHPCounter() - m_timeOffset) / double(bx::getHPFrequency()));
+
         // Actor update
         for (auto a : actors) {
+            a->setWorldRotation(time * 45, time * 45, time * 45);
             a->update();
         }
 

@@ -1,8 +1,5 @@
 #include "Cube.h"
 #include "EngineUtils.h"
-#include "bx/math.h"
-#include "bx/timer.h"
-#include <iostream>
 
 struct PosColorVertex
 {
@@ -63,15 +60,10 @@ void Cube::init() {
     bgfx::ShaderHandle vsh = loadShader("vs_cubes.bin");
     bgfx::ShaderHandle fsh = loadShader("fs_cubes.bin");
     m_program = bgfx::createProgram(vsh, fsh, true);
-    m_timeOffset = bx::getHPCounter();
 }
 
 void Cube::update() {
-    float time = (float)((bx::getHPCounter() - m_timeOffset) / double(bx::getHPFrequency()));
-
-    setRotation(time * 90, time * 90, 0);
-
-    computeTransform();
+    Component::update();
 }
 
 void Cube::destroy() {

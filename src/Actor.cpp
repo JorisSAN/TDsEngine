@@ -24,6 +24,30 @@ void Actor::setWorldPosition(float x, float y, float z) {
 	m_WorldPosition[2] = z;
 }
 
+void Actor::setWorldRotation(float* rot) {
+	for (int i = 0; i < sizeof(m_WorldRotation) / sizeof(float); i++) {
+		m_WorldRotation[i] = rot[i];
+	}
+}
+
+void Actor::setWorldRotation(float x, float y, float z) {
+	m_WorldRotation[0] = x;
+	m_WorldRotation[1] = y;
+	m_WorldRotation[2] = z;
+}
+
+void Actor::setWorldScale(float* scl) {
+	for (int i = 0; i < sizeof(m_WorldScale) / sizeof(float); i++) {
+		m_WorldScale[i] = scl[i];
+	}
+}
+
+void Actor::setWorldScale(float x, float y, float z) {
+	m_WorldScale[0] = x;
+	m_WorldScale[1] = y;
+	m_WorldScale[2] = z;
+}
+
 void Actor::init() {
 	for (auto c : components) {
 		c->init();
