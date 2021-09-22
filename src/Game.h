@@ -60,8 +60,9 @@ public:
 	void unload();
 	void close();
 
-	void addActor(Actor* actor);
-	void removeActor(Actor* actor);
+	void	addActor(Actor* actor);
+	void	removeActor(Actor* actor);
+	Actor*	searchActor(char* actorName);
 
 private:
 	Window window;
@@ -69,7 +70,5 @@ private:
 
 	std::vector<Actor*> actors;
 	std::vector<Actor*> pendingActors;
-
-	int64_t	m_timeOffset;
 };
 

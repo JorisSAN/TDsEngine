@@ -4,14 +4,14 @@
 
 namespace mathMatrix
 {
-	void translate(float* matrix, float x, float y, float z) {
+	inline void translate(float* matrix, float x, float y, float z) {
 		matrix[12] = x;
 		matrix[13] = y;
 		matrix[14] = z;
 		matrix[15] = 1.0;
 	}
 
-	void scale(float* matrix, float sx, float sy, float sz) {
+	inline void scale(float* matrix, float sx, float sy, float sz) {
 		matrix[ 0] = matrix[0] * sx;
 		matrix[ 1] = matrix[1] * sx;
 		matrix[ 2] = matrix[2] * sx;
@@ -30,7 +30,7 @@ namespace mathMatrix
 		matrix[15] = 1.0;
 	}
 
-	void rotate(float* matrix, float rx, float ry, float rz) {
+	inline void rotate(float* matrix, float rx, float ry, float rz) {
 		const float sx = sin(rx);
 		const float cx = cos(rx);
 		const float sy = sin(ry);
@@ -53,7 +53,7 @@ namespace mathMatrix
 		matrix[15] = 1.0;
 	}
 
-	void createFromQuaternion(float* matrix, const Quaternion& q) {
+	inline void createFromQuaternion(float* matrix, const Quaternion& q) {
 		matrix[ 0] = 1.0f - 2.0f * q.y * q.y - 2.0f * q.z * q.z;
 		matrix[ 1] = 2.0f * q.x * q.y + 2.0f * q.w * q.z;
 		matrix[ 2] = 2.0f * q.x * q.z - 2.0f * q.w * q.y;
@@ -73,5 +73,34 @@ namespace mathMatrix
 		matrix[13] = 0.0f;
 		matrix[14] = 0.0f;
 		matrix[15] = 1.0f;
+	}
+	
+	inline float* calculPositionWithCenterRotationAndRayon(float* centerP, float* rotationP, float* rayonP) {
+		float PositionX = rayonP[0];
+		float PositionY = rayonP[1];
+		float PositionZ = rayonP[2];
+
+		float worldRotationX = Maths::toRadians(rotationP[0]);
+		float worldRotationY = Maths::toRadians(rotationP[1]);
+		float worldRotationZ = Maths::toRadians(rotationP[2]);
+
+		float positionY = PositionY * Maths::cos(worldRotationX) - PositionZ * Maths::sin(worldRotationX);
+		float positionZ = PositionZ * Maths::cos(worldRotationX) + PositionY * Maths::sin(worldRotationX);
+
+		float positionX = PositionX * Maths::cos(worldRotationY) + positionZ * Maths::sin(worldRotationY);
+		positionZ = positionZ * Maths::cos(worldRotationY) - PositionX * Maths::sin(worldRotationY);
+
+		float tempPosX = positionX;
+		float tempPosY = positionY;
+
+		positionX = tempPosX * Maths::cos(worldRotationZ) - tempPosY * Maths::sin(worldRotationZ);
+		positionY = tempPosY * Maths::cos(worldRotationZ) + tempPosX * Maths::sin(worldRotationZ);
+
+		positionX += centerP[0];
+		positionY += centerP[1];
+		positionZ += centerP[2];
+
+		float position[3] = {positionX, positionY, positionZ };
+		return position;
 	}
 }

@@ -2,14 +2,25 @@
 #include "Component.h"
 #include "Game.h"
 
-Actor::Actor() :
+Actor::Actor(char* nameP) :
 	game(Game::instance())
 {
 	game.addActor(this);
+	setName(nameP);
 }
 
 Actor::~Actor() {
 	destroy();
+}
+
+void Actor::setName(char* nameP)
+{
+	for (int i = 0; i < sizeof(name) / sizeof(char); i++) {
+		name[i] = nameP[i];
+		if (nameP[i] == '\0') {
+			break;
+		}
+	}
 }
 
 void Actor::setWorldPosition(float* pos) {
@@ -89,4 +100,25 @@ void Actor::removeComponent(Component* component)
 	{
 		components.erase(iter);
 	}
+}
+
+Component* Actor::searchComponent(char* componentName)
+{
+	for (auto c : components) {
+		if (c->isTheComponent(componentName)) { 
+			return c;
+		}
+	}
+	return nullptr;
+}
+
+bool Actor::isTheActor(char* nameP)
+{
+	for (int i = 0; i < sizeof(name) / sizeof(char); ++i) {
+		if (name[i] != nameP[i]) { return false; }
+		if (name[i] == '\0' && nameP[i] != '\0') { return false; }
+		if (name[i] != '\0' && nameP[i] == '\0') { return false; }
+		if (name[i] == '\0' && nameP[i] == '\0') { break; }
+	}
+	return true;
 }

@@ -4,7 +4,7 @@
 class Cube : public Component
 {
 public:
-	Cube(Actor* ownerP);
+	Cube(Actor* ownerP, char* nameP);
 	virtual ~Cube();
 	Cube() = delete;
 	Cube(const Cube&) = delete;

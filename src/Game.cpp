@@ -1,7 +1,7 @@
 #include "Game.h"
-#include "Component.h"
-#include "Cube.h"
-#include <iostream>
+#include "Carousel.h"
+#include "Timer.h"
+#include "Maths.h"
 
 bool Game::initialize() {
     return !window.init();
@@ -9,25 +9,13 @@ bool Game::initialize() {
 
 void Game::load() {
     // Creation of an Actor
-    Actor* actor = new Actor();
-
-    // Creation of a cube
-    Cube* cube = new Cube(actor);
-    Cube* cube2 = new Cube(actor);
-
-    cube2->setPosition(5, 5, 5);
-
-    actor->setWorldPosition(0, 0, 10);
-
-    // add to all actor of the game
-    actors.push_back(actor);
+    Actor* carousel = new Carousel("carousel");
+    carousel->setWorldPosition(0, 0, 10);
 
     // Init the Actor
     for (auto a : actors) {
         a->init();
     }
-
-    m_timeOffset = bx::getHPCounter();
 }
 
 void Game::loop() {
@@ -40,8 +28,8 @@ void Game::loop() {
             Camera View update
         -------------------------------------------------
         */
-        const bx::Vec3 at = { 0.0f, 0.0f,  0.0f };
-        const bx::Vec3 eye = { 0.0f, 0.0f, -5.0f };
+        const bx::Vec3 at = { 3.0f, 3.0f,  7.0f };
+        const bx::Vec3 eye = { -5.0f, 7.0f, 0.0f };
         float view[16];
         bx::mtxLookAt(view, eye, at);
         float proj[16];
@@ -51,11 +39,13 @@ void Game::loop() {
         -------------------------------------------------
         */
 
-        float time = (float)((bx::getHPCounter() - m_timeOffset) / double(bx::getHPFrequency()));
+        Actor* carousel = searchActor("carousel");
+        if (carousel != nullptr) {
+            carousel->setWorldRotation(0, 0, -Maths::cos(Timer::getTime())* 22.5 + 22.5);
+        }
 
         // Actor update
         for (auto a : actors) {
-            a->setWorldRotation(time * 45, time * 45, time * 45);
             a->update();
         }
 
@@ -94,4 +84,14 @@ void Game::removeActor(Actor* actor)
         std::iter_swap(iter, end(actors) - 1);
         actors.pop_back();
     }
+}
+
+Actor* Game::searchActor(char* actorName)
+{
+    for (auto a : actors) {
+        if (a->isTheActor(actorName)) {
+            return a;
+        }
+    }
+    return nullptr;
 }

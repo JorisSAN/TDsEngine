@@ -6,7 +6,7 @@
 class Component
 {
 public:
-	Component(Actor* ownerP, int updateOrderP = 100);
+	Component(Actor* ownerP, char* nameP, int updateOrderP = 100);
 	Component() = delete;
 	virtual ~Component();
 	Component(const Component&) = delete;
@@ -16,19 +16,21 @@ public:
 	virtual void update()	{ computeTransform();	}
 	virtual void destroy();
 
-	void computeTransform();
+	void setName	(char* nameP);
+	void setPosition(float* pos);
+	void setPosition(float x, float y, float z);
+	void setScale	(float* scl);
+	void setScale	(float x, float y, float z);
+	void setRotation(float* rot);
+	void setRotation(float x, float y, float z);
 
-	void	setPosition(float* pos);
-	void	setPosition(float x, float y, float z);
-	void	setScale(float* scl);
-	void	setScale(float x, float y, float z);
-	void	setRotation(float* rot);
-	void	setRotation(float x, float y, float z);
-
+	char*	getName()				{ return name;			}
 	float*	getPosition()			{ return m_position;	}
 	float*	getScale()				{ return m_scale;		}
 	float*	getRotation()			{ return m_rotation;	}
 	int		getUpdateOrder() const	{ return updateOrder;	}
+
+	bool isTheComponent(char* nameP);
 
 protected:
 	Actor&						owner;
@@ -39,6 +41,8 @@ protected:
 	float						m_matrix[16];
 
 private:
+	void computeTransform();
+
 	char		name[20];
 	float		m_position[3] = { 0, 0, 0 };
 	float		m_scale[3] =	{ 1, 1, 1 };

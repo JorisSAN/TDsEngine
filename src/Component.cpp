@@ -2,11 +2,12 @@
 #include "MathMatrix.h"
 #include "Maths.h"
 
-Component::Component(Actor* ownerP, int updateOrderP) :
+Component::Component(Actor* ownerP, char* nameP, int updateOrderP) :
     owner(*ownerP),
     updateOrder(updateOrderP)
 {
     owner.addComponent(this);
+    setName(nameP);
 }
 
 Component::~Component() {
@@ -95,6 +96,16 @@ void Component::computeTransform() {
     bgfx::submit(0, m_program);
 }
 
+void Component::setName(char* nameP)
+{
+    for (int i = 0; i < sizeof(name) / sizeof(char); i++) {
+        name[i] = nameP[i];
+        if (nameP[i] == '\0') {
+            break;
+        }
+    }
+}
+
 void Component::setPosition(float* pos) {
     for (int i = 0; i < sizeof(m_position) / sizeof(float); i++) {
         m_position[i] = pos[i];
@@ -129,4 +140,15 @@ void Component::setRotation(float x, float y, float z) {
     m_rotation[0] = x;
     m_rotation[1] = y;
     m_rotation[2] = z;
+}
+
+bool Component::isTheComponent(char* nameP)
+{
+    for (int i = 0; i < sizeof(name) / sizeof(char); ++i) {
+        if (name[i] != nameP[i]) { return false; }
+        if (name[i] == '\0' && nameP[i] != '\0') { return false; }
+        if (name[i] != '\0' && nameP[i] == '\0') { return false; }
+        if (name[i] == '\0' && nameP[i] == '\0') { break; }
+    }
+    return true;
 }

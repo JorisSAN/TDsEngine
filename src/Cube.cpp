@@ -37,8 +37,8 @@ static const uint16_t cubeTriList[] =
     6, 3, 7,
 };
 
-Cube::Cube(Actor* ownerP) :
-    Component(ownerP)
+Cube::Cube(Actor* ownerP, char* nameP) :
+    Component(ownerP, nameP)
 {
 }
 

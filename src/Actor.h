@@ -7,11 +7,12 @@ class Component;
 class Actor
 {
 public:
-	Actor();
+	Actor(char* nameP);
 	virtual ~Actor();
 	Actor(const Actor&) = delete;
 	Actor& operator=(const Actor&) = delete;
 
+	void setName			(char* nameP);
 	void setWorldPosition	(float* pos);
 	void setWorldPosition	(float x, float y, float z);
 	void setWorldRotation	(float* rot);
@@ -19,16 +20,20 @@ public:
 	void setWorldScale		(float* scl);
 	void setWorldScale		(float x, float y, float z);
 
-	float* getWorldPosition()	{ return m_WorldPosition;	}
-	float* getWorldRotation()	{ return m_WorldRotation;	}
-	float* getWorldScale()		{ return m_WorldScale;		}
+	char*	getName()			{ return name;				}
+	float*	getWorldPosition()	{ return m_WorldPosition;	}
+	float*	getWorldRotation()	{ return m_WorldRotation;	}
+	float*	getWorldScale()		{ return m_WorldScale;		}
 
-	void addComponent(Component* component);
-	void removeComponent(Component* component);
+	void		addComponent	(Component* component);
+	void		removeComponent	(Component* component);
+	Component*	searchComponent	(char* componentName);
 
-	void init();
-	void update();
-	void destroy();
+	bool isTheActor(char* nameP);
+
+	virtual void	init();
+	virtual void	update();
+	void			destroy();
 
 private:
 	Game&					game;
