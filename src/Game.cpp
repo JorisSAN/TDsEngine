@@ -28,8 +28,8 @@ void Game::loop() {
             Camera View update
         -------------------------------------------------
         */
-        const bx::Vec3 at = { 3.0f, 3.0f,  7.0f };
-        const bx::Vec3 eye = { -5.0f, 7.0f, 0.0f };
+        const bx::Vec3 at = { 5.0f, 0.0f,  10.0f };
+        const bx::Vec3 eye = { -5.0f, 7.0f, 3.0f };
         float view[16];
         bx::mtxLookAt(view, eye, at);
         float proj[16];
