@@ -25,6 +25,9 @@ public:
 	float*	getWorldRotation()	{ return m_WorldRotation;	}
 	float*	getWorldScale()		{ return m_WorldScale;		}
 
+	float* getActorForwardVector();
+	float* getActorRightVector();
+
 	void		addComponent	(Component* component);
 	void		removeComponent	(Component* component);
 	Component*	searchComponent	(char* componentName);

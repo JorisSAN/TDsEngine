@@ -10,8 +10,8 @@ public:
 	Cube(const Cube&) = delete;
 	Cube& operator=(const Cube&) = delete;
 
-	void init()			override;
-	void update()		override;
-	void destroy()		override;
+	void init()		override;
+	void update()	override;
+	void destroy()	override;
 };
 

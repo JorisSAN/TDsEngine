@@ -122,3 +122,50 @@ bool Actor::isTheActor(char* nameP)
 	}
 	return true;
 }
+
+float* Actor::getActorForwardVector() {
+	float vector[3];
+	float* rotation = getWorldRotation();
+
+	float angleX = Maths::toRadians(rotation[2]);
+	float angleY = Maths::toRadians(rotation[1]);
+
+	vector[0] = Maths::cos(angleY) * Maths::cos(angleX);
+	vector[1] = Maths::sin(angleY) * Maths::cos(angleX);
+	vector[2] = Maths::sin(angleX);
+
+	return vector;
+}
+
+float* Actor::getActorRightVector() {
+	// Get Forward vector
+	float forward[3];
+	float* forwardVector = getActorForwardVector();
+	forward[0] = forwardVector[0];
+	forward[1] = forwardVector[1];
+	forward[2] = forwardVector[2];
+
+	// Normalize the Forward vector
+	float normalizedForward[3];
+	const float* normalizedForwardTemp = Maths::normalize(forward);
+	normalizedForward[0] = normalizedForwardTemp[0];
+	normalizedForward[1] = normalizedForwardTemp[1];
+	normalizedForward[2] = normalizedForwardTemp[2];
+
+	// Get and Normalize the Up vector
+	const float up[3] = { 0.0f, 1.0f, 0.0f };
+	float normalizedUp[3];
+	const float* normalizedUpTemp = Maths::normalize(up);
+	normalizedUp[0] = normalizedUpTemp[0];
+	normalizedUp[1] = normalizedUpTemp[1];
+	normalizedUp[2] = normalizedUpTemp[2];
+
+	// Calculate the Right Vector
+	const float* rightTemp = Maths::cross(normalizedForward, normalizedUp);
+	float right[3];
+	right[0] = rightTemp[0];
+	right[1] = rightTemp[1];
+	right[2] = rightTemp[2];
+
+	return right;
+}

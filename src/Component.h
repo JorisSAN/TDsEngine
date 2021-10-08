@@ -30,6 +30,9 @@ public:
 	float*	getRotation()			{ return m_rotation;	}
 	int		getUpdateOrder() const	{ return updateOrder;	}
 
+	float* getForwardVector();
+	float* getRightVector();
+
 	bool isTheComponent(char* nameP);
 
 protected:
@@ -44,9 +47,9 @@ private:
 	void computeTransform();
 
 	char		name[20];
-	float		m_position[3] = { 0, 0, 0 };
-	float		m_scale[3] =	{ 1, 1, 1 };
-	float		m_rotation[3] = { 0, 0, 0 }; // angle in degrees
+	float		m_position[3]	= { 0, 0, 0 };
+	float		m_scale[3]		= { 1, 1, 1 };
+	float		m_rotation[3]	= { 0, 0, 0 }; // angle in degrees
 	Quaternion	m_rotation_by_quaternion;
 	bool		isInit = false;
 };

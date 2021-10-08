@@ -105,4 +105,43 @@ namespace Maths
 	{
 		return static_cast<int>(std::round(num));
 	}
+
+	inline const float* cross(const float* a, const float* b) {
+		const float vectorCrossed[3] = 
+		{ 
+			a[1] * b[2] - a[2] * b[1] , 
+			a[2] * b[0] - a[0] * b[2] ,
+			a[0] * b[1] - a[1] * b[0] 
+		};
+
+		return vectorCrossed;
+	}
+
+	inline const float dot(const float* a, const float* b)
+	{
+		return (a[0] * b[0]) + (a[1] * b[1]) + (a[2] * b[2]);
+	}
+
+	inline const float length(const float* a) {
+		return sqrt(dot(a, a));
+	}
+
+	inline const float* mul(const float* a, const float b) {
+		const float temp[3] = 
+		{
+			a[0] * b, 
+			a[1] * b, 
+			a[2] * b, 
+		};
+
+		return temp;
+	}
+
+	inline const float* normalize(const float* a) {
+		const float invLen = 1.0f / length(a);
+
+		const float* result = mul(a, invLen);
+
+		return result;
+	}
 }

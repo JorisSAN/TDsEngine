@@ -1,5 +1,7 @@
 #include "Game.h"
 #include "Carousel.h"
+#include "FirstPersonCharacter.h"
+#include "Camera.h"
 #include "Timer.h"
 #include "Maths.h"
 
@@ -12,6 +14,8 @@ void Game::load() {
     Actor* carousel = new Carousel("carousel");
     carousel->setWorldPosition(0, 0, 10);
 
+    Actor* firstPersonCharacter = new FirstPersonCharacter("FirstPersonCharacter");
+
     // Init the Actor
     for (auto a : actors) {
         a->init();
@@ -23,26 +27,12 @@ void Game::loop() {
         // update the window (clear, resize, ...)
         window.update();
 
-        /*
-        -------------------------------------------------
-            Camera View update
-        -------------------------------------------------
-        */
-        const bx::Vec3 at = { 5.0f, 0.0f,  10.0f };
-        const bx::Vec3 eye = { -5.0f, 7.0f, 3.0f };
-        float view[16];
-        bx::mtxLookAt(view, eye, at);
-        float proj[16];
-        bx::mtxProj(proj, 90.0f, float(window.getWidth()) / float(window.getHeight()), 0.1f, 100.0f, bgfx::getCaps()->homogeneousDepth);
-        bgfx::setViewTransform(0, view, proj);
-        /*
-        -------------------------------------------------
-        */
-
         Actor* carousel = searchActor("carousel");
         if (carousel != nullptr) {
-            carousel->setWorldRotation(0, 0, -Maths::cos(Timer::getTime())* 22.5 + 22.5);
+            carousel->setWorldRotation(0, 0, -Maths::cos(Timer::getTime()) * 22.5 + 22.5);
         }
+
+        Actor* firstPersonCharacter = searchActor("FirstPersonCharacter");
 
         // Actor update
         for (auto a : actors) {
