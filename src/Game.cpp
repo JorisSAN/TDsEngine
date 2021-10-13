@@ -1,19 +1,20 @@
 #include "Game.h"
 #include "Carousel.h"
+#include "Level.h"
 #include "FirstPersonCharacter.h"
 #include "Camera.h"
 #include "Timer.h"
 #include "Maths.h"
-
+#include "LevelLoader.h"
 bool Game::initialize() {
     return !window.init();
 }
 
 void Game::load() {
     // Creation of an Actor
-    Actor* carousel = new Carousel("carousel");
-    carousel->setWorldPosition(0, 0, 10);
-
+    Actor* level = new Level("level");
+    level->setWorldPosition(0, 0, 10);
+    ReadFile(3, level);
     Actor* firstPersonCharacter = new FirstPersonCharacter("FirstPersonCharacter");
 
     // Init the Actor
@@ -26,12 +27,12 @@ void Game::loop() {
     while (!window.windowShouldClose()) {
         // update the window (clear, resize, ...)
         window.update();
-
+        /*
         Actor* carousel = searchActor("carousel");
         if (carousel != nullptr) {
             carousel->setWorldRotation(0, 0, -Maths::cos(Timer::getTime()) * 22.5 + 22.5);
         }
-
+        */
         Actor* firstPersonCharacter = searchActor("FirstPersonCharacter");
 
         // Actor update
