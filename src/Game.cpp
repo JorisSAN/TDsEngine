@@ -1,5 +1,6 @@
 #include "Game.h"
 #include "Carousel.h"
+#include "Boule.h"
 #include "Level.h"
 #include "FirstPersonCharacter.h"
 #include "Camera.h"
@@ -16,6 +17,7 @@ void Game::load() {
     level->setWorldPosition(0, 0, 10);
     ReadFile(3, level);
     Actor* firstPersonCharacter = new FirstPersonCharacter("FirstPersonCharacter");
+    Actor* boule = new Boule("boule");
 
     // Init the Actor
     for (auto a : actors) {
@@ -33,7 +35,18 @@ void Game::loop() {
             carousel->setWorldRotation(0, 0, -Maths::cos(Timer::getTime()) * 22.5 + 22.5);
         }
         */
+        Boule* boule = static_cast<Boule*>(searchActor("boule"));
         Actor* firstPersonCharacter = searchActor("FirstPersonCharacter");
+        float gPosition[3] = { 5,5,5 };
+        //float personPosition[3] = { 0,0,0 };
+        float* goalPosition = firstPersonCharacter->getActorForwardVector();
+        float* personPosition = firstPersonCharacter->getWorldPosition();
+        float* bouleRotation = firstPersonCharacter->getWorldRotation();
+        gPosition[0] = goalPosition[0];
+        gPosition[1] = goalPosition[1];
+        gPosition[2] = goalPosition[2];
+        boule->setGoalAndPerson(personPosition,gPosition);
+        boule->updateLerp();
 
         // Actor update
         for (auto a : actors) {
