@@ -3,9 +3,9 @@
 ## Quick Start
 Building project :
 
-`./premake5 vs2019`
+First Step go to the TDsEngine directory : 
+`cd TDsEngine`
 
-## For add a subModule
-Command :  `git submodule add (git url of the module) externals/(ModuleName)`
+Now, Generate project files : 
 
-After that go to the file `premake5.lua` and add in the `includedirs` what you want to add.
+`.\externals\bx\tools\bin\windows\genie --with-examples vs2017`
