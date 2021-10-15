@@ -57,8 +57,8 @@ void Cube::init() {
     m_vbh = bgfx::createVertexBuffer(bgfx::makeRef(cubeVertices, sizeof(cubeVertices)), pcvDecl);
     m_ibh = bgfx::createIndexBuffer(bgfx::makeRef(cubeTriList, sizeof(cubeTriList)));
 
-    bgfx::ShaderHandle vsh = loadShader("vs_cubes.bin");
-    bgfx::ShaderHandle fsh = loadShader("fs_cubes.bin");
+    bgfx::ShaderHandle vsh = loadShaders("vs_cubes.bin");
+    bgfx::ShaderHandle fsh = loadShaders("fs_cubes.bin");
     m_program = bgfx::createProgram(vsh, fsh, true);
 }
 

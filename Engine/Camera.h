@@ -1,6 +1,6 @@
 #pragma once
 #include "Component.h"
-#include "Maths.h"
+#include "Window.h"
 
 class Camera : public Component
 {

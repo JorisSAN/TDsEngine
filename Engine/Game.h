@@ -1,40 +1,9 @@
 #pragma once
 #include "EngineUtils.h"
-#include "Window.h"
 #include <vector>
+#include "Window.h"
 #include "Actor.h"
-
-struct MouseButton
-{
-	enum Enum
-	{
-		None,
-		Left,
-		Middle,
-		Right,
-
-		Count
-	};
-};
-
-struct MouseState
-{
-	MouseState()
-		: m_mx(0)
-		, m_my(0)
-		, m_mz(0)
-	{
-		for (uint32_t ii = 0; ii < MouseButton::Count; ++ii)
-		{
-			m_buttons[ii] = MouseButton::None;
-		}
-	}
-
-	int32_t m_mx;
-	int32_t m_my;
-	int32_t m_mz;
-	uint8_t m_buttons[MouseButton::Count];
-};
+#include "common.h"
 
 class Game
 {
@@ -54,9 +23,9 @@ private:
 	Game() {}
 public:
 
-	bool initialize();
+	void initWindow(int32_t _argc, const char* const* _argv, uint32_t _width, uint32_t _height);
 	void load();
-	void loop();
+	bool loop();
 	void unload();
 	void close();
 
@@ -66,7 +35,7 @@ public:
 
 private:
 	Window window;
-	MouseState mouseState;
+	entry::MouseState m_mouseState;
 
 	std::vector<Actor*> actors;
 	std::vector<Actor*> pendingActors;

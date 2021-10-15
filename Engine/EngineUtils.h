@@ -8,6 +8,6 @@
 #include <bx/timer.h>
 #include <bx/math.h>
 
-bgfx::ShaderHandle loadShader(const char* FILENAME);
+bgfx::ShaderHandle loadShaders(const char* FILENAME);
 
 #endif

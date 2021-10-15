@@ -5,8 +5,8 @@
 #include "Timer.h"
 #include "Maths.h"
 
-bool Game::initialize() {
-    return !window.init();
+void Game::initWindow(int32_t _argc, const char* const* _argv, uint32_t _width, uint32_t _height) {
+    window.init(_argc, _argv, _width, _height);
 }
 
 void Game::load() {
@@ -22,10 +22,10 @@ void Game::load() {
     }
 }
 
-void Game::loop() {
-    while (!window.windowShouldClose()) {
-        // update the window (clear, resize, ...)
-        window.update();
+bool Game::loop() {
+
+    if (!entry::processEvents(window.getWidth(), window.getHeight(), window.getDebug(), window.getReset(), &m_mouseState))
+    {
 
         Actor* carousel = searchActor("carousel");
         if (carousel != nullptr) {
@@ -41,7 +41,11 @@ void Game::loop() {
 
         // Go to the next frame
         bgfx::frame();
+
+        return true;
     }
+
+    return false;
 }
 
 void Game::unload() {
@@ -50,7 +54,6 @@ void Game::unload() {
 
 void Game::close() {
     bgfx::shutdown();
-    window.shutdown();
 }
 
 void Game::addActor(Actor* actor)
