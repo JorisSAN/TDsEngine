@@ -1,6 +1,9 @@
 #include "Window.h"
 #include "bgfx_utils.h"
 
+uint32_t Window::width = 1280;
+uint32_t Window::height = 720;
+
 Window::~Window() {
     shutdown();
 }
@@ -34,6 +37,8 @@ int Window::init(int32_t _argc, const char* const* _argv, uint32_t _width, uint3
 }
 
 void Window::update() {
+    Window::width = m_width;
+    Window::height = m_height;
 }
 
 void Window::shutdown() {

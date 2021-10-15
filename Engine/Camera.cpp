@@ -1,6 +1,6 @@
 #include "Camera.h"
+#include "Window.h"
 #include <bx/math.h>
-#include <iostream>
 
 Camera::Camera(Actor* ownerP, char* nameP) :
     Component(ownerP, nameP)
@@ -41,7 +41,9 @@ void Camera::update() {
     bx::mtxLookAt(view, eye, at);
 
     float proj[16];
-    bx::mtxProj(proj, fov, (float)width / (float)height, nearPlan, farPlan, bgfx::getCaps()->homogeneousDepth);
+    width = Window::width;
+    height = Window::height;
+    bx::mtxProj(proj, fov, width / height, nearPlan, farPlan, bgfx::getCaps()->homogeneousDepth);
 
     bgfx::setViewRect(0, 0, 0, uint16_t(width), uint16_t(height));
     bgfx::setViewTransform(0, view, proj);

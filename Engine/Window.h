@@ -21,5 +21,8 @@ public:
 	uint32_t m_height;
 	uint32_t m_debug;
 	uint32_t m_reset;
+
+	static uint32_t width;
+	static uint32_t height;
 };
 

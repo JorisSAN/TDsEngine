@@ -20,6 +20,9 @@ void FirstPersonCharacter::init()
 void FirstPersonCharacter::update()
 {
 	Component* cam = searchComponent("Camera1");
+	if (cam != nullptr) {
+		cam->setRotation(0, 0, getWorldRotation()[2]);
+	}
 
 	Actor::update(); // Imperatively after the modification
 }

@@ -23,16 +23,28 @@ void Game::load() {
 }
 
 bool Game::loop() {
+    window.update();
 
     if (!entry::processEvents(window.getWidth(), window.getHeight(), window.getDebug(), window.getReset(), &m_mouseState))
     {
+
+
+        Actor* player = searchActor("FirstPersonCharacter");
+        if (player != nullptr) {
+            float* rotPlayer = player->getWorldRotation();
+            float rotationPlayer[3];
+            rotationPlayer[0] = rotPlayer[0];
+            rotationPlayer[1] = rotPlayer[1];
+            rotationPlayer[2] = rotPlayer[2];
+            rotationPlayer[2] += ((Window::width - m_mouseState.m_mx) / (float)Window::width) * 2.0f - 1.0f;
+            //rotationPlayer[1] += ((Window::height - m_mouseState.m_my) / (float)Window::height) * 2.0f - 1.0f;
+            player->setWorldRotation(rotationPlayer[0], rotationPlayer[1], rotationPlayer[2]);
+        }
 
         Actor* carousel = searchActor("carousel");
         if (carousel != nullptr) {
             carousel->setWorldRotation(0, 0, -Maths::cos(Timer::getTime()) * 22.5 + 22.5);
         }
-
-        Actor* firstPersonCharacter = searchActor("FirstPersonCharacter");
 
         // Actor update
         for (auto a : actors) {

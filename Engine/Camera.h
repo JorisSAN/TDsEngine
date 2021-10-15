@@ -25,7 +25,7 @@ private :
 	float fov		= 90.0f;
 	float nearPlan	= 0.1f;
 	float farPlan	= 100.0f;
-	float width		= 1024;
-	float height	= 768;
+	float width		= 1280;
+	float height	= 720;
 };
 
