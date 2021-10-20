@@ -1,6 +1,8 @@
 #include "CollisionComponent.h"
 enum CollisionType { point, sphere, aabb };
 
+namespace Collisions {
+
 bool IsColliding(CollisionComponent colisionA, CollisionComponent colisionB)
 {
 	if (colisionA.colType == point || colisionB.colType == point)
@@ -172,3 +174,4 @@ bool IsColliding(CollisionComponent colisionA, CollisionComponent colisionB)
 			(aboxmin[2] <= bboxmax[2] && aboxmax[2] >= bboxmin[2]);
 }
 };
+}

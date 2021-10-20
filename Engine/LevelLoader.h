@@ -7,22 +7,26 @@
 #include <typeinfo>
 #include <string>
 #include <limits.h>
-void ReadFile(int numEtage, Actor* level)
-{
-	for (int i = 0; i < numEtage; i++)
-	{
-		//std::cout << "AAAAAAAAAAAA";
 
-		std::ifstream file("../../assets/txtlevel/Etage" + std::to_string(i));
+
+
+void ReadFile(int numEtage, Actor* level,Actor* fpchara)
+{
+	for (float i = 0; i < numEtage; i++)
+	{
+		std::cout << "AAAAAAAAAAAA";
+
+		std::ifstream file("../../../../assets/txtLevel/Etage" + std::to_string((int)i));
 		if (!file)
 		{
 
 			std::cout << "NotFind";
+			std::cout << "../../../assets/txtLevel/Etage" + std::to_string((int)i);
 
 			return;
 		}
-		int nbrow = 0;
-		int nbline = 0;
+		float nbrow = 0;
+		float nbline = 0;
 		std::string line;
 		while (std::getline(file, line))
 		{
@@ -40,6 +44,7 @@ void ReadFile(int numEtage, Actor* level)
 						aaa = "cube" + std::to_string(i) + std::to_string(nbrow) + std::to_string(nbline);
 						Cube* cube = new Cube(level, &aaa[0]);
 						cube->setPosition(nbrow*2, i*2, nbline*2);
+						//cube->setPosition(0.0f,0.0f, 0.0f);
 						// at position nbrow , numEtage , nbline 
 					}
 					break;
@@ -57,8 +62,8 @@ void ReadFile(int numEtage, Actor* level)
 						break;
 					case 'S': 
 					{
-
 						//set player start
+						fpchara->setWorldPosition(nbrow * 2, i * 2, nbline * 2);
 					}
 					break;
 					case 'E':

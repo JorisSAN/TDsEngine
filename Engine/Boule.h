@@ -12,6 +12,8 @@ public:
 	void update()	override;
 	void setGoalAndPerson(float* gPos, float* pPos,float time);
 	void updateLerp();
+	bool getIsLaunched() {return isLaunched;};
+	void fixCollision();
 private:
 	float goalPosition[3] = { 0, 5, 0 };
 	bool isLaunched = false;
