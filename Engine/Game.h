@@ -1,9 +1,13 @@
 #pragma once
 #include "EngineUtils.h"
 #include <vector>
+#include <iostream>
+#include <fstream>
 #include "Window.h"
 #include "Actor.h"
 #include "common.h"
+#include "LogRedirect.h"
+#include "CollisionComponent.h"
 
 class Game
 {
@@ -32,12 +36,18 @@ public:
 	void	addActor(Actor* actor);
 	void	removeActor(Actor* actor);
 	Actor*	searchActor(char* actorName);
+	void	addCollision(CollisionComponent* collision);
+	void	removeCollision(CollisionComponent* collision);
+	std::vector<CollisionComponent*> getAllCollisions();
 
 private:
 	Window window;
 	entry::MouseState m_mouseState;
-
+	std::filebuf file;
+	CoutRedirect pipe;
 	std::vector<Actor*> actors;
+	std::vector<CollisionComponent*> collisions;
 	std::vector<Actor*> pendingActors;
+	std::vector<CollisionComponent*> pendingCollisions;
 };
 

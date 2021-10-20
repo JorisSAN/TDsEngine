@@ -41,10 +41,14 @@ void ReadFile(int numEtage, Actor* level,Actor* fpchara)
 				{
 					case 'X': 
 					{
-						aaa = "cube" + std::to_string(i) + std::to_string(nbrow) + std::to_string(nbline);
+						aaa = "cube " + std::to_string((int)i) +" "+ std::to_string((int)nbrow) +" "+ std::to_string((int)nbline);
 						Cube* cube = new Cube(level, &aaa[0]);
 						cube->setPosition(nbrow*2, i*2, nbline*2);
-						//cube->setPosition(0.0f,0.0f, 0.0f);
+						aaa += "colision";
+						CollisionComponent* col = new CollisionComponent(level, &aaa[0]);
+						col->setPosition(nbrow * 2, i * 2, nbline * 2);
+						col->setScale(1,1,1);
+
 						// at position nbrow , numEtage , nbline 
 					}
 					break;

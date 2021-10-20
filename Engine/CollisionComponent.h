@@ -1,7 +1,7 @@
 #pragma once
 #include "Component.h"
 
-enum CollisionType { point, sphere, aabb };
+enum class CollisionType { point, sphere, aabb };
 
 class CollisionComponent : public Component
 {
@@ -15,7 +15,10 @@ public:
 	void init()		override;
 	void update()	override;
 	void destroy()	override;
+	
+	
 	float radius = 0;
-
+	float* getMax();
+	float* getMin();
 };
 

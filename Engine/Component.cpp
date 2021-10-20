@@ -15,6 +15,14 @@ Component::~Component() {
     destroy();
 }
 
+float* Component::getWorldPosition() {
+    float worldPos[3];
+    worldPos[0] = owner.getWorldPosition()[0]+getPosition()[0];
+    worldPos[1] = owner.getWorldPosition()[1]+getPosition()[1];
+    worldPos[2] = owner.getWorldPosition()[2]+getPosition()[2];
+    return worldPos;
+}
+
 void Component::destroy() {
     if (isInit) {
         bgfx::destroy(m_ibh);

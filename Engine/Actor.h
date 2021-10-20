@@ -37,7 +37,7 @@ public:
 	virtual void	init();
 	virtual void	update();
 	void			destroy();
-
+	Game& getGame() { return game; };
 private:
 	Game&					game;
 	char					name[20];

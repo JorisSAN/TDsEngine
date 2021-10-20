@@ -29,6 +29,7 @@ public:
 	float*	getScale()				{ return m_scale;		}
 	float*	getRotation()			{ return m_rotation;	}
 	int		getUpdateOrder() const	{ return updateOrder;	}
+	float* getWorldPosition();
 
 	float* getForwardVector();
 	float* getRightVector();

@@ -3,33 +3,47 @@
 #include "FirstPersonCharacter.h"
 #include "Camera.h"
 #include "Timer.h"
+#include "Level.h"
+#include "Boule.h"
 #include "Maths.h"
+#include <iostream>
+#include "LevelLoader.h"
 
 void Game::initWindow(int32_t _argc, const char* const* _argv, uint32_t _width, uint32_t _height) {
     window.init(_argc, _argv, _width, _height);
 }
 
 void Game::load() {
+    file.open("log.txt", std::ios_base::out);
+    pipe.redirect(&file);
     // Creation of an Actor
-    Actor* carousel = new Carousel("carousel");
-    carousel->setWorldPosition(0, 0, 10);
-
+   // Actor* carousel = new Carousel("carousel");
+    //carousel->setWorldPosition(0, 0, 10);
+    Actor* boule = new Boule("boule");
     Actor* firstPersonCharacter = new FirstPersonCharacter("FirstPersonCharacter");
 
+    Actor* level = new Level("level");
+    ReadFile(3, level,firstPersonCharacter);
     // Init the Actor
     for (auto a : actors) {
         a->init();
     }
+    //firstPersonCharacter->setWorldPosition(3.0f, 5.0f, 3.0f);
+
+
 }
 
 bool Game::loop() {
     window.update();
-
+    file.open("log.txt", std::ios_base::out);
+    pipe.redirect(&file);
     if (!entry::processEvents(window.getWidth(), window.getHeight(), window.getDebug(), window.getReset(), &m_mouseState))
     {
 
-
+        
         Actor* player = searchActor("FirstPersonCharacter");
+        Boule* boule = static_cast<Boule*>(searchActor("boule"));
+        
         if (player != nullptr) {
             float* rotPlayer = player->getWorldRotation();
             float rotationPlayer[3];
@@ -39,13 +53,32 @@ bool Game::loop() {
             rotationPlayer[2] += ((Window::width - m_mouseState.m_mx) / (float)Window::width) * 2.0f - 1.0f;
             //rotationPlayer[1] += ((Window::height - m_mouseState.m_my) / (float)Window::height) * 2.0f - 1.0f;
             player->setWorldRotation(rotationPlayer[0], rotationPlayer[1], rotationPlayer[2]);
-        }
+            if (m_mouseState.m_buttons[entry::MouseButton::Left] && !boule->getIsLaunched()) {
+                std::cout << " fromage rapée";
+                float gPosition[3] = { -0.0f, 6.0f, 0.0f };
+                float pPosition[3] = { -7.0f,6.0f,0.0f };
+                float* goalPosition = player->getActorForwardVector();
+                float* personPosition = player->getWorldPosition();
+                gPosition[0] = goalPosition[0]*10 + personPosition[0];
+                gPosition[1] = goalPosition[1]*10 + personPosition[1];
+                gPosition[2] = goalPosition[2]*10 + personPosition[2];
+                pPosition[0] = personPosition[0];
+                pPosition[1] = personPosition[1];
+                pPosition[2] = personPosition[2];
+                boule->setGoalAndPerson( gPosition, pPosition, Timer::getTime());
+            }
+            //boule->setWorldRotation(rotationPlayer[0], rotationPlayer[2], rotationPlayer[1]);
 
+        }
+        
+        boule->updateLerp();
+
+        /*
         Actor* carousel = searchActor("carousel");
         if (carousel != nullptr) {
             carousel->setWorldRotation(0, 0, -Maths::cos(Timer::getTime()) * 22.5 + 22.5);
         }
-
+        */
         // Actor update
         for (auto a : actors) {
             a->update();
@@ -53,10 +86,11 @@ bool Game::loop() {
 
         // Go to the next frame
         bgfx::frame();
+        std::cout << "1";
+
 
         return true;
     }
-
     return false;
 }
 
@@ -99,4 +133,32 @@ Actor* Game::searchActor(char* actorName)
         }
     }
     return nullptr;
+}
+
+
+void Game::addCollision(CollisionComponent* collision)
+{
+    collisions.emplace_back(collision);
+}
+
+void Game::removeCollision(CollisionComponent* collision)
+{
+    // Erase actor from the two vectors
+    auto iter = std::find(begin(pendingCollisions), end(pendingCollisions), collision);
+    if (iter != end(pendingCollisions))
+    {
+        // Swap to end of vector and pop off (avoid erase copies)
+        std::iter_swap(iter, end(pendingCollisions) - 1);
+        pendingCollisions.pop_back();
+    }
+    iter = std::find(begin(collisions), end(collisions), collision);
+    if (iter != end(collisions))
+    {
+        std::iter_swap(iter, end(collisions) - 1);
+        collisions.pop_back();
+    }
+}
+
+std::vector<CollisionComponent*> Game::getAllCollisions() {
+    return collisions;
 }
