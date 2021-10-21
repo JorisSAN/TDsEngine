@@ -226,7 +226,7 @@ function exampleProjectDefaults()
 		path.join(BIMG_DIR, "include"),
 		path.join(BGFX_DIR, "include"),
 		path.join(BGFX_DIR, "3rdparty"),
-		path.join(BGFX_DIR, "examples/common"),
+		path.join("../common"),
 	}
 
 	flags {
@@ -535,7 +535,7 @@ if _OPTIONS["with-examples"]
 or _OPTIONS["with-combined-examples"]
 or _OPTIONS["with-tools"] then
 	group "examples"
-	dofile "../externals/bgfx/scripts/example-common.lua"
+	dofile "examples.lua"
 end
 
 if _OPTIONS["with-examples"]

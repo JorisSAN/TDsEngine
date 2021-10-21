@@ -90,10 +90,12 @@ void Component::computeTransform() {
 
     bgfx::setTransform(m_matrix);
 
-    bgfx::setVertexBuffer(0, m_vbh);
-    bgfx::setIndexBuffer(m_ibh);
+    if (isInit) {
+        bgfx::setVertexBuffer(0, m_vbh);
+        bgfx::setIndexBuffer(m_ibh);
 
-    bgfx::submit(0, m_program);
+        bgfx::submit(0, m_program);
+    }
 }
 
 void Component::setName(char* nameP)

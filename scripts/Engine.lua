@@ -6,8 +6,8 @@ project ("Engine")
 		path.join(BIMG_DIR, "include"),
 		path.join(BGFX_DIR, "include"),
 		path.join(BGFX_DIR, "3rdparty"),
-		path.join(BGFX_DIR, "examples/common"),
-		path.join(BGFX_DIR, "examples/common/entry"),
+		path.join("../common"),
+		path.join("../common/entry"),
 	}
 
 	files {

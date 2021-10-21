@@ -35,7 +35,7 @@ public:
 
 private:
 	Window window;
-	entry::MouseState m_mouseState;
+	entry::InputState m_inputState;
 
 	std::vector<Actor*> actors;
 	std::vector<Actor*> pendingActors;

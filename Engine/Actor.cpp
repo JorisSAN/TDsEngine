@@ -161,7 +161,7 @@ float* Actor::getActorRightVector() {
 	normalizedUp[2] = normalizedUpTemp[2];
 
 	// Calculate the Right Vector
-	const float* rightTemp = Maths::cross(normalizedForward, normalizedUp);
+	const float* rightTemp = Maths::cross(normalizedForward, up);
 	float right[3];
 	right[0] = rightTemp[0];
 	right[1] = rightTemp[1];
