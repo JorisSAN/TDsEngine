@@ -1,7 +1,6 @@
 #include "Boule.h"
 #include "Cube.h"
 #include "Maths.h"
-#include "CollisionComponent.h"
 #include "CollisionFunctions.h"
 #include <iostream>
 #include <string>

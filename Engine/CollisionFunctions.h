@@ -1,9 +1,9 @@
+#pragma once
 #include "CollisionComponent.h"
 #include <iostream>
-
 namespace Collisions {
 
-bool IsColliding(CollisionComponent* colisionA, CollisionComponent* colisionB)
+inline bool IsColliding(CollisionComponent* colisionA, CollisionComponent* colisionB)
 {
 	//Need to rework everything except aabb aabb
 	if (colisionA->colType ==CollisionType::point || colisionB->colType == CollisionType::point)
@@ -101,7 +101,9 @@ bool IsColliding(CollisionComponent* colisionA, CollisionComponent* colisionB)
 			(aboxmin[2] <= bboxmax[2] && aboxmax[2] >= bboxmin[2])) {
 
 			std::cout << "Collision Effective Between "<< colisionA->getName() << " and " << colisionB->getName() << "\n";
-			float bboxmin[3] = { colisionB->getMin()[0] ,colisionB->getMin()[1],colisionB->getMin()[2] };
+			bboxmin[0] =  colisionB->getMin()[0];
+			bboxmin[1] = colisionB->getMin()[1];
+			bboxmin[2] = colisionB->getMin()[2] ;
 
 		}
 		return (aboxmin[0] <= bboxmax[0] && aboxmax[0] >= bboxmin[0]) &&
@@ -109,4 +111,4 @@ bool IsColliding(CollisionComponent* colisionA, CollisionComponent* colisionB)
 			(aboxmin[2] <= bboxmax[2] && aboxmax[2] >= bboxmin[2]);
 }
 };
-}
+};

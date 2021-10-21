@@ -2,7 +2,7 @@
 #include "Component.h"
 
 enum class CollisionType { point, sphere, aabb };
-enum class OwnerType { level, enemy,boule,teleporteur };
+enum class OwnerType { level, enemy,boule,teleporteur,player };
 class CollisionComponent : public Component
 {
 public:

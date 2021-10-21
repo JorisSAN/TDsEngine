@@ -15,6 +15,7 @@ public:
 	void update()	override;
 
 	float getVitesse() { return vitesse; }
+	void fixCollision(float* oldPosition);
 
 private:
 

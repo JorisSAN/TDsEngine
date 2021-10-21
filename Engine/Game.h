@@ -7,7 +7,7 @@
 #include "Actor.h"
 #include "common.h"
 #include "LogRedirect.h"
-#include "CollisionComponent.h"
+#include "Collisionfunctions.h"
 
 class Game
 {

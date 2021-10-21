@@ -72,46 +72,12 @@ bool Game::loop() {
 
             player->setWorldRotation(0, 0, rotationPlayer);
 
-            float* playerPos = player->getWorldPosition();
-
-            float* forwardTempVector = player->getActorForwardVector();
-            float forwardVector[3];
-            forwardVector[0] = forwardTempVector[0];
-            forwardVector[1] = forwardTempVector[1];
-            forwardVector[2] = forwardTempVector[2];
-
-            float* rightTempVector = player->getActorRightVector();
-            float rightVector[3];
-            rightVector[0] = rightTempVector[0];
-            rightVector[1] = rightTempVector[1];
-            rightVector[2] = rightTempVector[2];
-
-            if (m_inputState.m_key.m_buttons[entry::Key::KeyZ]) {
-                player->setWorldPosition(playerPos[0] + forwardVector[0] * 0.25, playerPos[1] + forwardVector[1] * 0.25, playerPos[2] + forwardVector[2] * 0.25);
-            }
-            if (m_inputState.m_key.m_buttons[entry::Key::KeyS]) {
-                player->setWorldPosition(playerPos[0] - forwardVector[0] * 0.25, playerPos[1] - forwardVector[1] * 0.25, playerPos[2] - forwardVector[2] * 0.25);
-            }
-            if (m_inputState.m_key.m_buttons[entry::Key::KeyQ]) {
-                player->setWorldPosition(playerPos[0] + rightVector[0] * 0.25, playerPos[1] + rightVector[1] * 0.25, playerPos[2] + rightVector[2] * 0.25);
-            }
-            if (m_inputState.m_key.m_buttons[entry::Key::KeyD]) {
-                player->setWorldPosition(playerPos[0] - rightVector[0] * 0.25, playerPos[1] - rightVector[1] * 0.25, playerPos[2] - rightVector[2] * 0.25);
-            }
-            //boule->setWorldRotation(rotationPlayer[0], rotationPlayer[2], rotationPlayer[1]);
-
         }
 
         boule->updateLerp();
     }
     inputSetMouseLock(true);
 
-    /*
-    Actor* carousel = searchActor("carousel");
-    if (carousel != nullptr) {
-        carousel->setWorldRotation(0, 0, -Maths::cos(Timer::getTime()) * 22.5 + 22.5);
-    }
-    */
     // Actor update
     for (auto a : actors) {
         a->update();
