@@ -11,6 +11,7 @@ public:
 	void init()		override;
 	void update()	override;
 	void setGoalAndPerson(float* gPos, float* pPos,float time);
+	void setPerson(float* pPos);
 	void updateLerp();
 	bool getIsLaunched() {return isLaunched;};
 	bool fixCollision(float* oldPosition);

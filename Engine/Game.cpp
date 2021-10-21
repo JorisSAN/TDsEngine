@@ -9,6 +9,7 @@
 #include "Maths.h"
 #include <iostream>
 #include "LevelLoader.h"
+#include "input.h"
 
 void Game::initWindow(int32_t _argc, const char* const* _argv, uint32_t _width, uint32_t _height) {
     window.init(_argc, _argv, _width, _height);
@@ -39,62 +40,86 @@ bool Game::loop() {
 
     file.open("log.txt", std::ios_base::out);
     pipe.redirect(&file);
-    if (!entry::processEvents(window.getWidth(), window.getHeight(), window.getDebug(), window.getReset(), &m_mouseState))
+    inputSetMouseLock(false);
+    m_inputState.m_mouse.m_mx = 0;
+    if (!entry::processEvents(&m_inputState))
     {
-
-        
         Actor* player = searchActor("FirstPersonCharacter");
         Boule* boule = static_cast<Boule*>(searchActor("boule"));
-        
+
         if (player != nullptr) {
-            float* rotPlayer = player->getWorldRotation();
-            float rotationPlayer[3];
-            rotationPlayer[0] = rotPlayer[0];
-            rotationPlayer[1] = rotPlayer[1];
-            rotationPlayer[2] = rotPlayer[2];
-            rotationPlayer[2] += ((Window::width - m_mouseState.m_mx) / (float)Window::width) * 2.0f - 1.0f;
-            //rotationPlayer[1] += ((Window::height - m_mouseState.m_my) / (float)Window::height) * 2.0f - 1.0f;
-            player->setWorldRotation(rotationPlayer[0], rotationPlayer[1], rotationPlayer[2]);
-            if (m_mouseState.m_buttons[entry::MouseButton::Left] && !boule->getIsLaunched()) {
+            float* personPosition = player->getWorldPosition();
+            float pPosition[3] = { -7.0f,6.0f,0.0f };
+            pPosition[0] = personPosition[0];
+            pPosition[1] = personPosition[1];
+            pPosition[2] = personPosition[2];
+            if (m_inputState.m_mouse.m_buttons[entry::MouseButton::Left] && !boule->getIsLaunched()) {
+                
                 std::cout << " fromage rape";
                 float gPosition[3] = { -0.0f, 6.0f, 0.0f };
-                float pPosition[3] = { -7.0f,6.0f,0.0f };
                 float* goalPosition = player->getActorForwardVector();
-                float* personPosition = player->getWorldPosition();
-                gPosition[0] = goalPosition[0]*10 + personPosition[0];
-                gPosition[1] = goalPosition[1]*10 + personPosition[1];
-                gPosition[2] = goalPosition[2]*10 + personPosition[2];
-                pPosition[0] = personPosition[0];
-                pPosition[1] = personPosition[1];
-                pPosition[2] = personPosition[2];
-                boule->setGoalAndPerson( gPosition, pPosition, Timer::getTime());
+                gPosition[0] = goalPosition[0] * 10 + personPosition[0];
+                gPosition[1] = goalPosition[1] * 10 + personPosition[1];
+                gPosition[2] = goalPosition[2] * 10 + personPosition[2];
+               
+                boule->setGoalAndPerson(gPosition, pPosition, Timer::getTime());
+            }
+            boule->setPerson(pPosition);
+            float* rotPlayer = player->getWorldRotation();
+            float   rotationPlayer;
+            rotationPlayer = rotPlayer[2];
+            rotationPlayer += 0 - m_inputState.m_mouse.m_mx / 5;
+
+            player->setWorldRotation(0, 0, rotationPlayer);
+
+            float* playerPos = player->getWorldPosition();
+
+            float* forwardTempVector = player->getActorForwardVector();
+            float forwardVector[3];
+            forwardVector[0] = forwardTempVector[0];
+            forwardVector[1] = forwardTempVector[1];
+            forwardVector[2] = forwardTempVector[2];
+
+            float* rightTempVector = player->getActorRightVector();
+            float rightVector[3];
+            rightVector[0] = rightTempVector[0];
+            rightVector[1] = rightTempVector[1];
+            rightVector[2] = rightTempVector[2];
+
+            if (m_inputState.m_key.m_buttons[entry::Key::KeyZ]) {
+                player->setWorldPosition(playerPos[0] + forwardVector[0] * 0.25, playerPos[1] + forwardVector[1] * 0.25, playerPos[2] + forwardVector[2] * 0.25);
+            }
+            if (m_inputState.m_key.m_buttons[entry::Key::KeyS]) {
+                player->setWorldPosition(playerPos[0] - forwardVector[0] * 0.25, playerPos[1] - forwardVector[1] * 0.25, playerPos[2] - forwardVector[2] * 0.25);
+            }
+            if (m_inputState.m_key.m_buttons[entry::Key::KeyQ]) {
+                player->setWorldPosition(playerPos[0] + rightVector[0] * 0.25, playerPos[1] + rightVector[1] * 0.25, playerPos[2] + rightVector[2] * 0.25);
+            }
+            if (m_inputState.m_key.m_buttons[entry::Key::KeyD]) {
+                player->setWorldPosition(playerPos[0] - rightVector[0] * 0.25, playerPos[1] - rightVector[1] * 0.25, playerPos[2] - rightVector[2] * 0.25);
             }
             //boule->setWorldRotation(rotationPlayer[0], rotationPlayer[2], rotationPlayer[1]);
 
         }
-        
+
         boule->updateLerp();
+    }
+    inputSetMouseLock(true);
 
-        /*
-        Actor* carousel = searchActor("carousel");
-        if (carousel != nullptr) {
-            carousel->setWorldRotation(0, 0, -Maths::cos(Timer::getTime()) * 22.5 + 22.5);
-        }
-        */
-        // Actor update
-        for (auto a : actors) {
-            a->update();
-        }
-
-        // Go to the next frame
-        bgfx::frame();
-        std::cout << "1";
-
-
+    /*
+    Actor* carousel = searchActor("carousel");
+    if (carousel != nullptr) {
+        carousel->setWorldRotation(0, 0, -Maths::cos(Timer::getTime()) * 22.5 + 22.5);
+    }
+    */
     // Actor update
     for (auto a : actors) {
         a->update();
     }
+
+    // Go to the next frame
+    bgfx::frame();
+    std::cout << "1";
 
     return true;
 }

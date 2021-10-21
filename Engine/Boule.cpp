@@ -39,6 +39,13 @@ void Boule::setGoalAndPerson(float* gPos, float* pPos,float time)
 	std::cout << " " + std::to_string(gPos[0]) + "     " + std::to_string(gPos[0]) + "    " + std::to_string(gPos[0])  << " BBB " + std::to_string(pPos[0]) + "     " + std::to_string(pPos[0]) + "    " + std::to_string(pPos[0]) + "\n";
 
 }
+void Boule::setPerson(float* pPos)
+{
+
+	personPosition[0] = pPos[0];
+	personPosition[1] = pPos[1];
+	personPosition[2] = pPos[2];
+}
 void Boule::updateLerp() {
 	alphaLerp = (Timer::getTime()+complementTime - timeLaunch) < 1 ? Timer::getTime()+complementTime - timeLaunch : 2-(Timer::getTime()+complementTime - timeLaunch);
 }
@@ -61,6 +68,12 @@ void Boule::update()
 		fixCollision(oldPos);
 
 	}
+	else {
+		setWorldPosition(personPosition[0], personPosition[1], personPosition[2]);
+
+	}
+
+	
 	Actor::update(); // Imperatively after the modification
 }
 
@@ -81,6 +94,9 @@ bool Boule::fixCollision(float* oldPosition) {
 		if (Collisions::IsColliding(myCol, col))
 		{
 			if (col->ownType==OwnerType::level) {
+				if ((Timer::getTime() - timeLaunch) > 1) {
+					continue;
+				}
 				if (!complementTime)
 				{
 					setWorldPosition(oldPosition);

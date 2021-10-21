@@ -24,6 +24,7 @@ public:
 	float*	getWorldPosition()	{ return m_WorldPosition;	}
 	float*	getWorldRotation()	{ return m_WorldRotation;	}
 	float*	getWorldScale()		{ return m_WorldScale;		}
+	Game&	getGame()			{ return game;				}
 
 	float* getActorForwardVector();
 	float* getActorRightVector();
@@ -37,7 +38,6 @@ public:
 	virtual void	init();
 	virtual void	update();
 	void			destroy();
-	Game& getGame() { return game; };
 private:
 	Game&					game;
 	char					name[20];

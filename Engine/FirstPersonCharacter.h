@@ -14,9 +14,11 @@ public:
 	void init()		override;
 	void update()	override;
 
+	float getVitesse() { return vitesse; }
+
 private:
-	entry::InputState m_inputState;
-	float vitesse = 1.0f;
+
+	float vitesse = 0.25f;
 	float screenCenter = 0;
 };
 

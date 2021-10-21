@@ -855,6 +855,7 @@ restart:
 						_input->m_mouse.m_my = 0;
 						_input->m_mouse.m_mz = 0;
 					}
+
 					_input->m_mouse.m_buttons[mouse->m_button] = mouse->m_down;
 				}
 				break;

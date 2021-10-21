@@ -40,9 +40,10 @@ public:
 	void	removeCollision(CollisionComponent* collision);
 	std::vector<CollisionComponent*> getAllCollisions();
 
+	entry::InputState m_inputState;
+
 private:
 	Window window;
-	entry::InputState m_inputState;
 
 	std::filebuf file;
 	CoutRedirect pipe;
