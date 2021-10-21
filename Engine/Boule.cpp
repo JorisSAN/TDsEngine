@@ -3,7 +3,6 @@
 #include "Maths.h"
 #include "CollisionComponent.h"
 #include "CollisionFunctions.h"
-#include "MathMatrix.h"
 #include <iostream>
 #include <string>
 #include "Timer.h"
@@ -17,7 +16,7 @@ Boule::~Boule() {}
 
 void Boule::init()
 {
-	CollisionComponent* collision = new CollisionComponent(this, "colcube");
+	CollisionComponent* collision = new CollisionComponent(this, "colcube",OwnerType::boule);
 	collision->setScale(1, 1, 1);
 	Cube* base = new Cube(this, "boulet");
 	base->setScale(1, 1, 1);
@@ -59,18 +58,13 @@ void Boule::update()
 		if (Timer::getTime()+complementTime-timeLaunch  > 2) {
 			isLaunched = false;
 		}
-		if (!complementTime &&fixCollision()) 
-		{
-			setWorldPosition(oldPos);
-			std::cout << (Timer::getTime() - timeLaunch);
-			complementTime = ( 1-(Timer::getTime() - timeLaunch))*2;
-		}
+		fixCollision(oldPos);
 
 	}
 	Actor::update(); // Imperatively after the modification
 }
 
-bool Boule::fixCollision() {
+bool Boule::fixCollision(float* oldPosition) {
 	std::cout <<"\n Fix collision\n";
 
 	CollisionComponent* myCol = static_cast<CollisionComponent*>(searchComponent("colcube"));
@@ -86,7 +80,19 @@ bool Boule::fixCollision() {
 
 		if (Collisions::IsColliding(myCol, col))
 		{
-			return true;
+			if (col->ownType==OwnerType::level) {
+				if (!complementTime)
+				{
+					setWorldPosition(oldPosition);
+					std::cout << (Timer::getTime() - timeLaunch);
+					complementTime = (1 - (Timer::getTime() - timeLaunch)) * 2;
+				}
+
+			}
+			if (col->ownType == OwnerType::enemy) {
+				//Kill the ennemy
+				col->getOwner().destroy();
+			}
 			
 		}
 		

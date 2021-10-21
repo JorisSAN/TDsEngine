@@ -5,6 +5,7 @@
 #include "Timer.h"
 #include "Level.h"
 #include "Boule.h"
+#include "Enemy.h"
 #include "Maths.h"
 #include <iostream>
 #include "LevelLoader.h"

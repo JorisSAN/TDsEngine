@@ -33,7 +33,7 @@ public:
 
 	float* getForwardVector();
 	float* getRightVector();
-
+	Actor& getOwner() { return owner; };
 	bool isTheComponent(char* nameP);
 
 protected:

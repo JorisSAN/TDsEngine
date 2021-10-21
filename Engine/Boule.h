@@ -13,7 +13,7 @@ public:
 	void setGoalAndPerson(float* gPos, float* pPos,float time);
 	void updateLerp();
 	bool getIsLaunched() {return isLaunched;};
-	bool fixCollision();
+	bool fixCollision(float* oldPosition);
 private:
 	float goalPosition[3] = { 0, 5, 0 };
 	bool isLaunched = false;

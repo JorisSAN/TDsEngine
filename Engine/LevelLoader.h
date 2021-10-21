@@ -7,6 +7,7 @@
 #include <typeinfo>
 #include <string>
 #include <limits.h>
+#include "Enemy.h"
 
 
 
@@ -52,10 +53,12 @@ void ReadFile(int numEtage, Actor* level,Actor* fpchara)
 						// at position nbrow , numEtage , nbline 
 					}
 					break;
-					case '0': 
+					case 'E': 
 					{
 						//Leved add ennemy
-
+						aaa = "enemy"+std::to_string((int)i) + " " + std::to_string((int)nbrow) + " " + std::to_string((int)nbline);
+						Enemy* enemy = new Enemy(&aaa[0]);
+						enemy->setWorldPosition(nbrow * 2, i * 2, nbline * 2);
 					}
 					break;
 					case 'T':
@@ -70,7 +73,7 @@ void ReadFile(int numEtage, Actor* level,Actor* fpchara)
 						fpchara->setWorldPosition(nbrow * 2, i * 2, nbline * 2);
 					}
 					break;
-					case 'E':
+					case '0':
 					{
 						//set player end
 

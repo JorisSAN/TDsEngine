@@ -6,11 +6,15 @@
 
 
 CollisionComponent::CollisionComponent(Actor* ownerP, char* nameP) :
-    Component(ownerP, nameP),colType(CollisionType::aabb)
+    Component(ownerP, nameP),colType(CollisionType::aabb),ownType(OwnerType::level)
 {
     ownerP->getGame().addCollision(this);
 }
-
+CollisionComponent::CollisionComponent(Actor* ownerP, char* nameP,OwnerType ownerT) :
+    Component(ownerP, nameP), colType(CollisionType::aabb),ownType(ownerT)
+{
+    ownerP->getGame().addCollision(this);
+}
 CollisionComponent::~CollisionComponent() {
     Component::~Component();
     destroy();
