@@ -31,7 +31,7 @@ void Component::destroy() {
     }
 }
 
-void Component::computeTransform() {
+float* Component::computeTransform() {
     Quaternion rotationResult;
     float axeX[3] = { 1, 0, 0 };
     float axeY[3] = { 0, 1, 0 };
@@ -104,6 +104,8 @@ void Component::computeTransform() {
 
         bgfx::submit(0, m_program);
     }
+
+    return m_matrix;
 }
 
 void Component::setName(char* nameP)

@@ -1,5 +1,5 @@
 #include "Boule.h"
-#include "Cube.h"
+#include "Mesh.h"
 #include "Maths.h"
 #include "CollisionFunctions.h"
 #include <iostream>
@@ -17,9 +17,9 @@ void Boule::init()
 {
 	CollisionComponent* collision = new CollisionComponent(this, "colcube",OwnerType::boule);
 	collision->setScale(1, 1, 1);
-	Cube* base = new Cube(this, "boulet");
+	StaticMesh* base = new StaticMesh(this, "boulet", "meshes/bunny.bin");
 	base->setScale(1, 1, 1);
-	base->setPosition(0, 0.0f, 0.0f);
+	base->setPosition(0, -2.0f, 0.0f);
 	Actor::init(); // Imperatively after the creation of the component
 
 }

@@ -37,6 +37,8 @@ public:
 	bool isTheComponent(char* nameP);
 
 protected:
+	float* computeTransform();
+
 	Actor&						owner;
 	int							updateOrder;
 	bgfx::VertexBufferHandle	m_vbh;
@@ -45,7 +47,6 @@ protected:
 	float						m_matrix[16];
 
 private:
-	void computeTransform();
 
 	char		name[20];
 	float		m_position[3]	= { 0, 0, 0 };

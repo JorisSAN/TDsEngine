@@ -78,7 +78,7 @@ void FirstPersonCharacter::fixCollision(float* oldPosition) {
 			}
 			if (col->ownType == OwnerType::enemy) {
 				//Kill the ennemy
-				destroy();
+				//destroy();
 			}
 
 		}
