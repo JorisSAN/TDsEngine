@@ -7,22 +7,27 @@
 #include <typeinfo>
 #include <string>
 #include <limits.h>
-void ReadFile(int numEtage, Actor* level)
-{
-	for (int i = 0; i < numEtage; i++)
-	{
-		//std::cout << "AAAAAAAAAAAA";
+#include "Enemy.h"
 
-		std::ifstream file("../../assets/txtlevel/Etage" + std::to_string(i));
+
+
+void ReadFile(int numEtage, Actor* level,Actor* fpchara)
+{
+	for (float i = 0; i < numEtage; i++)
+	{
+		std::cout << "AAAAAAAAAAAA";
+
+		std::ifstream file("../../../../assets/txtLevel/Etage" + std::to_string((int)i));
 		if (!file)
 		{
 
 			std::cout << "NotFind";
+			std::cout << "../../../assets/txtLevel/Etage" + std::to_string((int)i);
 
 			return;
 		}
-		int nbrow = 0;
-		int nbline = 0;
+		float nbrow = 0;
+		float nbline = 0;
 		std::string line;
 		while (std::getline(file, line))
 		{
@@ -37,16 +42,23 @@ void ReadFile(int numEtage, Actor* level)
 				{
 					case 'X': 
 					{
-						aaa = "cube" + std::to_string(i) + std::to_string(nbrow) + std::to_string(nbline);
+						aaa = "cube " + std::to_string((int)i) +" "+ std::to_string((int)nbrow) +" "+ std::to_string((int)nbline);
 						Cube* cube = new Cube(level, &aaa[0]);
 						cube->setPosition(nbrow*2, i*2, nbline*2);
+						aaa += "colision";
+						CollisionComponent* col = new CollisionComponent(level, &aaa[0]);
+						col->setPosition(nbrow * 2, i * 2, nbline * 2);
+						col->setScale(1,1,1);
+
 						// at position nbrow , numEtage , nbline 
 					}
 					break;
-					case '0': 
+					case 'E': 
 					{
 						//Leved add ennemy
-
+						aaa = "enemy"+std::to_string((int)i) + " " + std::to_string((int)nbrow) + " " + std::to_string((int)nbline);
+						Enemy* enemy = new Enemy(&aaa[0]);
+						enemy->setWorldPosition(nbrow * 2, i * 2, nbline * 2);
 					}
 					break;
 					case 'T':
@@ -57,11 +69,11 @@ void ReadFile(int numEtage, Actor* level)
 						break;
 					case 'S': 
 					{
-
 						//set player start
+						fpchara->setWorldPosition(nbrow * 2, i * 2, nbline * 2);
 					}
 					break;
-					case 'E':
+					case '0':
 					{
 						//set player end
 
