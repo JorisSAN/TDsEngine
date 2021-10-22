@@ -2,6 +2,7 @@
 #include "Actor.h"
 #include "Cube.h"
 #include "Component.h"
+#include "Teleporteur.h"
 #include <iostream>
 #include <fstream>
 #include <typeinfo>
@@ -15,7 +16,7 @@ void ReadFile(int numEtage, Actor* level,Actor* fpchara)
 {
 	for (float i = 0; i < numEtage; i++)
 	{
-		std::cout << "AAAAAAAAAAAA";
+		//std::cout << "AAAAAAAAAAAA";
 
 		std::ifstream file("../../../../assets/txtLevel/Etage" + std::to_string((int)i));
 		if (!file)
@@ -64,7 +65,11 @@ void ReadFile(int numEtage, Actor* level,Actor* fpchara)
 					case 'T':
 					{
 						//level add Teleporteur
-
+						aaa = "teleporteur" + std::to_string((int)i) + " " + std::to_string((int)nbrow) + " " + std::to_string((int)nbline);
+						float telepPos[3] = { nbrow * 2,(i * 2) + 4*2,nbline * 2 };
+						Teleporteur* teleporteur = new Teleporteur(&aaa[0],telepPos);
+						teleporteur->setWorldPosition(nbrow * 2, i * 2, nbline * 2);
+						
 					}
 						break;
 					case 'S': 

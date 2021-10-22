@@ -1,6 +1,7 @@
 #include "FirstPersonCharacter.h"
 #include "Camera.h"
 #include "Timer.h"
+#include "Teleporteur.h"
 #include "input.h"
 #include "Game.h"
 
@@ -80,6 +81,10 @@ void FirstPersonCharacter::fixCollision(float* oldPosition) {
 				//Kill the ennemy
 				//destroy();
 			}
+            if (col->ownType == OwnerType::teleporteur) {
+                static_cast<Teleporteur*>(&col->getOwner());
+                setWorldPosition(static_cast<Teleporteur*>(&col->getOwner())->getTeleporteur());
+            }
 
 		}
 

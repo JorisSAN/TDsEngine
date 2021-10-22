@@ -25,7 +25,7 @@ void Game::load() {
     Actor* firstPersonCharacter = new FirstPersonCharacter("FirstPersonCharacter");
 
     Actor* level = new Level("level");
-    ReadFile(3, level,firstPersonCharacter);
+    ReadFile(8, level,firstPersonCharacter);
     // Init the Actor
     for (auto a : actors) {
         a->init();
