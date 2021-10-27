@@ -3,7 +3,7 @@
 #include <bx/rng.h>
 #include <map>
 #include <iostream>
-#include "Carousel/Game.h"
+#include "Descent/Game.h"
 
 
 namespace
@@ -40,7 +40,7 @@ public:
 
 ENTRY_IMPLEMENT_MAIN(
     TDsEngine,
-    "Carousel",
-    "Creation of a Carousel",
+    "Descent",
+    "Creation of a Descent Like",
     "https://github.com/JorisSAN/TDsEngine"
 );

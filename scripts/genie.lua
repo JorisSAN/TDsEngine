@@ -216,7 +216,7 @@ if _OPTIONS["with-profiler"] then
 	}
 end
 
-function exampleProjectDefaults()
+function exampleProjectDefaults(...)
 
 	debugdir (path.join(BGFX_DIR, "examples/runtime"))
 
@@ -234,7 +234,7 @@ function exampleProjectDefaults()
 	}
 
 	links {
-		"Engine",
+		"Engine" .. ...,
 		"example-glue",
 		"example-common",
 		"bgfx",
@@ -474,7 +474,7 @@ function exampleProject(_combined, ...)
 			path.join(BGFX_DIR, "examples/25-c99/helloworld.c"), -- hack for _main_
 		}
 
-		exampleProjectDefaults()
+		exampleProjectDefaults(name)
 
 	else
 
@@ -497,7 +497,7 @@ function exampleProject(_combined, ...)
 				"ENTRY_CONFIG_IMPLEMENT_MAIN=1",
 			}
 
-			exampleProjectDefaults()
+			exampleProjectDefaults(name)
 		end
 	end
 
@@ -552,6 +552,8 @@ or _OPTIONS["with-combined-examples"] then
 
 	exampleProject(_OPTIONS["with-combined-examples"]
 		, "Carousel"
+		, "Doom"
+		, "Descent"
 	)
 end
 

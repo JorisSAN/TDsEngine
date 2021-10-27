@@ -3,7 +3,7 @@
 #include <bx/rng.h>
 #include <map>
 #include <iostream>
-#include "Carousel/Game.h"
+#include "Doom/Game.h"
 
 
 namespace
@@ -40,7 +40,7 @@ public:
 
 ENTRY_IMPLEMENT_MAIN(
     TDsEngine,
-    "Carousel",
-    "Creation of a Carousel",
+    "DOOM with a bilboquet",
+    "Creation of a Doom Like with a bilboquet",
     "https://github.com/JorisSAN/TDsEngine"
 );

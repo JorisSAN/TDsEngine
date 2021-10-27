@@ -6,12 +6,14 @@
 all:
 	
 	@make -s --no-print-directory build -C Carousel
-	@make -s --no-print-directory build -C 30-picking
+	@make -s --no-print-directory build -C Doom
+	@make -s --no-print-directory build -C Descent
 
 rebuild:
 	
 	@make -s --no-print-directory rebuild -C Carousel
-	@make -s --no-print-directory rebuild -C 30-picking
+	@make -s --no-print-directory rebuild -C Doom
+	@make -s --no-print-directory rebuild -C Descent
 
 rebuild-embedded:
 
