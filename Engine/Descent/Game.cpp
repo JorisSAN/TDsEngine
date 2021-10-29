@@ -65,12 +65,11 @@ bool Game::loop() {
             }
             if (m_inputState.m_mouse.m_buttons[entry::MouseButton::Right] && player->canShoot()) 
             {
-                for (int aled = 0; aled < 5; aled++) {
                     Balle* bullet = new Balle(&("bullet" + std::to_string(Timer::getTime()))[0]);
                     bullet->init();
                     bullet->setRotStartInstigator(player->getWorldRotation(), player->getWorldPosition(), OwnerType::player);
                     player->setLastTimeShot(Timer::getTime());
-                }
+              
                 
             }
             boule->setPerson(pPosition);
