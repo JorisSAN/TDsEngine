@@ -1,10 +1,10 @@
 #include "Game.h"
-#include "Carousel.h"
 #include "FirstPersonCharacter.h"
 #include "Camera.h"
 #include "Timer.h"
 #include "Level.h"
 #include "Boule.h"
+#include "Balle.h"
 #include "Enemy.h"
 #include "Maths.h"
 #include <iostream>
@@ -44,7 +44,7 @@ bool Game::loop() {
     m_inputState.m_mouse.m_mx = 0;
     if (!entry::processEvents(&m_inputState))
     {
-        Actor* player = searchActor("FirstPersonCharacter");
+        FirstPersonCharacter* player = static_cast<FirstPersonCharacter*>(searchActor("FirstPersonCharacter"));
         Boule* boule = static_cast<Boule*>(searchActor("boule"));
 
         if (player != nullptr) {
@@ -55,7 +55,6 @@ bool Game::loop() {
             pPosition[2] = personPosition[2];
             if (m_inputState.m_mouse.m_buttons[entry::MouseButton::Left] && !boule->getIsLaunched()) {
                 
-                std::cout << " fromage rape";
                 float gPosition[3] = { -0.0f, 6.0f, 0.0f };
                 float* goalPosition = player->getActorForwardVector();
                 gPosition[0] = goalPosition[0] * 10 + personPosition[0];
@@ -63,6 +62,16 @@ bool Game::loop() {
                 gPosition[2] = goalPosition[2] * 10 + personPosition[2];
                
                 boule->setGoalAndPerson(gPosition, pPosition, Timer::getTime());
+            }
+            if (m_inputState.m_mouse.m_buttons[entry::MouseButton::Right] && player->canShoot()) 
+            {
+                for (int aled = 0; aled < 5; aled++) {
+                    Balle* bullet = new Balle(&("bullet" + std::to_string(Timer::getTime()))[0]);
+                    bullet->init();
+                    bullet->setRotStartInstigator(player->getWorldRotation(), player->getWorldPosition(), OwnerType::player);
+                    player->setLastTimeShot(Timer::getTime());
+                }
+                
             }
             boule->setPerson(pPosition);
             float* rotPlayer = player->getWorldRotation();
@@ -85,8 +94,7 @@ bool Game::loop() {
 
     // Go to the next frame
     bgfx::frame();
-    std::cout << "1";
-
+    
     return true;
 }
 
@@ -117,6 +125,7 @@ void Game::removeActor(Actor* actor)
     if (iter != end(actors))
     {
         std::iter_swap(iter, end(actors) - 1);
+        //actors.back()->destroy();
         actors.pop_back();
     }
 }
