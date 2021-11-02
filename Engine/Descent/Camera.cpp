@@ -23,7 +23,7 @@ void Camera::update() {
     cameraPosition[0] = cameraComponentPosition[0] + ActorPosition[0];
     cameraPosition[1] = cameraComponentPosition[1] + ActorPosition[1];
     cameraPosition[2] = cameraComponentPosition[2] + ActorPosition[2];
-    float* forwardVectorTemp    = getForwardVector();
+    float* forwardVectorTemp = getForwardVector();
     float  forwardVector[3];
     forwardVector[0] = forwardVectorTemp[0];
     forwardVector[1] = forwardVectorTemp[1];

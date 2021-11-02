@@ -190,1432 +190,1689 @@ X//////////////////////X
 XXXXXXXXXXXXXXXXXXXXXXXX
 
 
-Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1 fromage rape 18.215225     18.215225    18.215225 BBB 28.092108     28.092108    28.092108
-
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1 fromage rape 14.143547     14.143547    14.143547 BBB 21.457085     21.457085    21.457085
-
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and colcube
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and colcube
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and colcube
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and colcube
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and colcube
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and colcube
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1 fromage rape 15.866821     15.866821    15.866821 BBB 16.041346     16.041346    16.041346
-
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and cube 1 7 0colision
-0.552073Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between colcube and Colision
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between colcube and Colision
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1
- Fix collision
-Collision Effective Between colcube and CollisionComp
-Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between CollisionComp and colcube
-1Collision Effective Between Col
+Actor Z : -111 | rotation Y : -46
+Cam : x = 0 | y = -46 | z = -111
+Actor Z : -111 | rotation Y : -46
+Cam : x = 0 | y = -46 | z = -111
+Actor Z : -95 | rotation Y : -21
+Cam : x = 0 | y = -21 | z = -95
+Actor Z : -95 | rotation Y : -21
+Cam : x = 0 | y = -21 | z = -95
+Actor Z : -95 | rotation Y : -21
+Cam : x = 0 | y = -21 | z = -95
+Actor Z : -95 | rotation Y : -21
+Cam : x = 0 | y = -21 | z = -95
+Actor Z : -95 | rotation Y : -21
+Cam : x = 0 | y = -21 | z = -95
+Actor Z : -95 | rotation Y : -21
+Cam : x = 0 | y = -21 | z = -95
+Actor Z : -95 | rotation Y : -21
+Cam : x = 0 | y = -21 | z = -95
+Actor Z : -223 | rotation Y : -93
+Cam : x = 0 | y = -93 | z = -223
+Actor Z : -223 | rotation Y : -93
+Cam : x = 0 | y = -93 | z = -223
+Actor Z : -223 | rotation Y : -93
+Cam : x = 0 | y = -93 | z = -223
+Actor Z : -223 | rotation Y : -93
+Cam : x = 0 | y = -93 | z = -223
+Actor Z : -223 | rotation Y : -93
+Cam : x = 0 | y = -93 | z = -223
+Actor Z : -223 | rotation Y : -93
+Cam : x = 0 | y = -93 | z = -223
+Actor Z : -223 | rotation Y : -93
+Cam : x = 0 | y = -93 | z = -223
+Actor Z : -223 | rotation Y : -93
+Cam : x = 0 | y = -93 | z = -223
+Actor Z : -223 | rotation Y : -93
+Cam : x = 0 | y = -93 | z = -223
+Actor Z : -223 | rotation Y : -93
+Cam : x = 0 | y = -93 | z = -223
+Actor Z : -223 | rotation Y : -93
+Cam : x = 0 | y = -93 | z = -223
+Actor Z : -223 | rotation Y : -93
+Cam : x = 0 | y = -93 | z = -223
+Actor Z : -223 | rotation Y : -93
+Cam : x = 0 | y = -93 | z = -223
+Actor Z : -223 | rotation Y : -93
+Cam : x = 0 | y = -93 | z = -223
+Actor Z : -223 | rotation Y : -93
+Cam : x = 0 | y = -93 | z = -223
+Actor Z : -223 | rotation Y : -93
+Cam : x = 0 | y = -93 | z = -223
+Actor Z : -223 | rotation Y : -93
+Cam : x = 0 | y = -93 | z = -223
+Actor Z : -223 | rotation Y : -93
+Cam : x = 0 | y = -93 | z = -223
+Actor Z : -223 | rotation Y : -93
+Cam : x = 0 | y = -93 | z = -223
+Actor Z : -223 | rotation Y : -93
+Cam : x = 0 | y = -93 | z = -223
+Actor Z : -223 | rotation Y : -93
+Cam : x = 0 | y = -93 | z = -223
+Actor Z : -223 | rotation Y : -93
+Cam : x = 0 | y = -93 | z = -223
+Actor Z : -223 | rotation Y : -93
+Cam : x = 0 | y = -93 | z = -223
+Actor Z : -223 | rotation Y : -93
+Cam : x = 0 | y = -93 | z = -223
+Actor Z : -223 | rotation Y : -93
+Cam : x = 0 | y = -93 | z = -223
+Actor Z : -223 | rotation Y : -93
+Cam : x = 0 | y = -93 | z = -223
+Actor Z : -223 | rotation Y : -93
+Cam : x = 0 | y = -93 | z = -223
+Actor Z : -223 | rotation Y : -93
+Cam : x = 0 | y = -93 | z = -223
+Actor Z : -223 | rotation Y : -93
+Cam : x = 0 | y = -93 | z = -223
+Actor Z : -223 | rotation Y : -93
+Cam : x = 0 | y = -93 | z = -223
+Actor Z : -223 | rotation Y : -93
+Cam : x = 0 | y = -93 | z = -223
+Actor Z : -223 | rotation Y : -93
+Cam : x = 0 | y = -93 | z = -223
+Actor Z : -223 | rotation Y : -94
+Cam : x = 0 | y = -94 | z = -223
+Actor Z : -223 | rotation Y : -94
+Cam : x = 0 | y = -94 | z = -223
+Actor Z : -223 | rotation Y : -94
+Cam : x = 0 | y = -94 | z = -223
+Actor Z : -223 | rotation Y : -94
+Cam : x = 0 | y = -94 | z = -223
+Actor Z : -223 | rotation Y : -94
+Cam : x = 0 | y = -94 | z = -223
+Actor Z : -223 | rotation Y : -94
+Cam : x = 0 | y = -94 | z = -223
+Actor Z : -223 | rotation Y : -94
+Cam : x = 0 | y = -94 | z = -223
+Actor Z : -223 | rotation Y : -94
+Cam : x = 0 | y = -94 | z = -223
+Actor Z : -223 | rotation Y : -95
+Cam : x = 0 | y = -95 | z = -223
+Actor Z : -223 | rotation Y : -96
+Cam : x = 0 | y = -96 | z = -223
+Actor Z : -223 | rotation Y : -97
+Cam : x = 0 | y = -97 | z = -223
+Actor Z : -224 | rotation Y : -98
+Cam : x = 0 | y = -98 | z = -224
+Actor Z : -224 | rotation Y : -99
+Cam : x = 0 | y = -99 | z = -224
+Actor Z : -225 | rotation Y : -101
+Cam : x = 0 | y = -101 | z = -225
+Actor Z : -226 | rotation Y : -103
+Cam : x = 0 | y = -103 | z = -226
+Actor Z : -227 | rotation Y : -105
+Cam : x = 0 | y = -105 | z = -227
+Actor Z : -228 | rotation Y : -106
+Cam : x = 0 | y = -106 | z = -228
+Actor Z : -228 | rotation Y : -106
+Cam : x = 0 | y = -106 | z = -228
+Actor Z : -228 | rotation Y : -106
+Cam : x = 0 | y = -106 | z = -228
+Actor Z : -228 | rotation Y : -107
+Cam : x = 0 | y = -107 | z = -228
+Actor Z : -228 | rotation Y : -108
+Cam : x = 0 | y = -108 | z = -228
+Actor Z : -228 | rotation Y : -109
+Cam : x = 0 | y = -109 | z = -228
+Actor Z : -229 | rotation Y : -111
+Cam : x = 0 | y = -111 | z = -229
+Actor Z : -230 | rotation Y : -113
+Cam : x = 0 | y = -113 | z = -230
+Actor Z : -231 | rotation Y : -115
+Cam : x = 0 | y = -115 | z = -231
+Actor Z : -232 | rotation Y : -117
+Cam : x = 0 | y = -117 | z = -232
+Actor Z : -233 | rotation Y : -118
+Cam : x = 0 | y = -118 | z = -233
+Actor Z : -234 | rotation Y : -118
+Cam : x = 0 | y = -118 | z = -234
+Actor Z : -234 | rotation Y : -118
+Cam : x = 0 | y = -118 | z = -234
+Actor Z : -234 | rotation Y : -118
+Cam : x = 0 | y = -118 | z = -234
+Actor Z : -235 | rotation Y : -118
+Cam : x = 0 | y = -118 | z = -235
+Actor Z : -235 | rotation Y : -118
+Cam : x = 0 | y = -118 | z = -235
+Actor Z : -235 | rotation Y : -118
+Cam : x = 0 | y = -118 | z = -235
+Actor Z : -235 | rotation Y : -118
+Cam : x = 0 | y = -118 | z = -235
+Actor Z : -235 | rotation Y : -118
+Cam : x = 0 | y = -118 | z = -235
+Actor Z : -236 | rotation Y : -118
+Cam : x = 0 | y = -118 | z = -236
+Actor Z : -236 | rotation Y : -119
+Cam : x = 0 | y = -119 | z = -236
+Actor Z : -237 | rotation Y : -120
+Cam : x = 0 | y = -120 | z = -237
+Actor Z : -237 | rotation Y : -121
+Cam : x = 0 | y = -121 | z = -237
+Actor Z : -237 | rotation Y : -122
+Cam : x = 0 | y = -122 | z = -237
+Actor Z : -237 | rotation Y : -123
+Cam : x = 0 | y = -123 | z = -237
+Actor Z : -237 | rotation Y : -124
+Cam : x = 0 | y = -124 | z = -237
+Actor Z : -237 | rotation Y : -126
+Cam : x = 0 | y = -126 | z = -237
+Actor Z : -237 | rotation Y : -128
+Cam : x = 0 | y = -128 | z = -237
+Actor Z : -237 | rotation Y : -131
+Cam : x = 0 | y = -131 | z = -237
+Actor Z : -237 | rotation Y : -134
+Cam : x = 0 | y = -134 | z = -237
+Actor Z : -237 | rotation Y : -137
+Cam : x = 0 | y = -137 | z = -237
+Actor Z : -237 | rotation Y : -140
+Cam : x = 0 | y = -140 | z = -237
+Actor Z : -237 | rotation Y : -142
+Cam : x = 0 | y = -142 | z = -237
+Actor Z : -237 | rotation Y : -144
+Cam : x = 0 | y = -144 | z = -237
+Actor Z : -237 | rotation Y : -146
+Cam : x = 0 | y = -146 | z = -237
+Actor Z : -237 | rotation Y : -148
+Cam : x = 0 | y = -148 | z = -237
+Actor Z : -237 | rotation Y : -150
+Cam : x = 0 | y = -150 | z = -237
+Actor Z : -236 | rotation Y : -151
+Cam : x = 0 | y = -151 | z = -236
+Actor Z : -234 | rotation Y : -154
+Cam : x = 0 | y = -154 | z = -234
+Actor Z : -231 | rotation Y : -156
+Cam : x = 0 | y = -156 | z = -231
+Actor Z : -228 | rotation Y : -158
+Cam : x = 0 | y = -158 | z = -228
+Actor Z : -225 | rotation Y : -160
+Cam : x = 0 | y = -160 | z = -225
+Actor Z : -221 | rotation Y : -161
+Cam : x = 0 | y = -161 | z = -221
+Actor Z : -217 | rotation Y : -162
+Cam : x = 0 | y = -162 | z = -217
+Actor Z : -214 | rotation Y : -163
+Cam : x = 0 | y = -163 | z = -214
+Actor Z : -211 | rotation Y : -164
+Cam : x = 0 | y = -164 | z = -211
+Actor Z : -209 | rotation Y : -164
+Cam : x = 0 | y = -164 | z = -209
+Actor Z : -208 | rotation Y : -164
+Cam : x = 0 | y = -164 | z = -208
+Actor Z : -207 | rotation Y : -164
+Cam : x = 0 | y = -164 | z = -207
+Actor Z : -203 | rotation Y : -164
+Cam : x = 0 | y = -164 | z = -203
+Actor Z : -200 | rotation Y : -164
+Cam : x = 0 | y = -164 | z = -200
+Actor Z : -197 | rotation Y : -164
+Cam : x = 0 | y = -164 | z = -197
+Actor Z : -194 | rotation Y : -164
+Cam : x = 0 | y = -164 | z = -194
+Actor Z : -191 | rotation Y : -164
+Cam : x = 0 | y = -164 | z = -191
+Actor Z : -187 | rotation Y : -164
+Cam : x = 0 | y = -164 | z = -187
+Actor Z : -183 | rotation Y : -164
+Cam : x = 0 | y = -164 | z = -183
+Actor Z : -180 | rotation Y : -164
+Cam : x = 0 | y = -164 | z = -180
+Actor Z : -178 | rotation Y : -164
+Cam : x = 0 | y = -164 | z = -178
+Actor Z : -176 | rotation Y : -164
+Cam : x = 0 | y = -164 | z = -176
+Actor Z : -175 | rotation Y : -164
+Cam : x = 0 | y = -164 | z = -175
+Actor Z : -175 | rotation Y : -164
+Cam : x = 0 | y = -164 | z = -175
+Actor Z : -175 | rotation Y : -164
+Cam : x = 0 | y = -164 | z = -175
+Actor Z : -175 | rotation Y : -164
+Cam : x = 0 | y = -164 | z = -175
+Actor Z : -175 | rotation Y : -164
+Cam : x = 0 | y = -164 | z = -175
+Actor Z : -175 | rotation Y : -164
+Cam : x = 0 | y = -164 | z = -175
+Actor Z : -174 | rotation Y : -163
+Cam : x = 0 | y = -163 | z = -174
+Actor Z : -174 | rotation Y : -163
+Cam : x = 0 | y = -163 | z = -174
+Actor Z : -174 | rotation Y : -163
+Cam : x = 0 | y = -163 | z = -174
+Actor Z : -174 | rotation Y : -163
+Cam : x = 0 | y = -163 | z = -174
+Actor Z : -174 | rotation Y : -163
+Cam : x = 0 | y = -163 | z = -174
+Actor Z : -174 | rotation Y : -163
+Cam : x = 0 | y = -163 | z = -174
+Actor Z : -174 | rotation Y : -162
+Cam : x = 0 | y = -162 | z = -174
+Actor Z : -174 | rotation Y : -161
+Cam : x = 0 | y = -161 | z = -174
+Actor Z : -175 | rotation Y : -158
+Cam : x = 0 | y = -158 | z = -175
+Actor Z : -175 | rotation Y : -154
+Cam : x = 0 | y = -154 | z = -175
+Actor Z : -175 | rotation Y : -151
+Cam : x = 0 | y = -151 | z = -175
+Actor Z : -175 | rotation Y : -148
+Cam : x = 0 | y = -148 | z = -175
+Actor Z : -175 | rotation Y : -145
+Cam : x = 0 | y = -145 | z = -175
+Actor Z : -175 | rotation Y : -142
+Cam : x = 0 | y = -142 | z = -175
+Actor Z : -175 | rotation Y : -140
+Cam : x = 0 | y = -140 | z = -175
+Actor Z : -175 | rotation Y : -138
+Cam : x = 0 | y = -138 | z = -175
+Actor Z : -175 | rotation Y : -135
+Cam : x = 0 | y = -135 | z = -175
+Actor Z : -175 | rotation Y : -133
+Cam : x = 0 | y = -133 | z = -175
+Actor Z : -175 | rotation Y : -131
+Cam : x = 0 | y = -131 | z = -175
+Actor Z : -175 | rotation Y : -131
+Cam : x = 0 | y = -131 | z = -175
+Actor Z : -175 | rotation Y : -130
+Cam : x = 0 | y = -130 | z = -175
+Actor Z : -175 | rotation Y : -128
+Cam : x = 0 | y = -128 | z = -175
+Actor Z : -175 | rotation Y : -126
+Cam : x = 0 | y = -126 | z = -175
+Actor Z : -175 | rotation Y : -123
+Cam : x = 0 | y = -123 | z = -175
+Actor Z : -176 | rotation Y : -121
+Cam : x = 0 | y = -121 | z = -176
+Actor Z : -176 | rotation Y : -119
+Cam : x = 0 | y = -119 | z = -176
+Actor Z : -176 | rotation Y : -118
+Cam : x = 0 | y = -118 | z = -176
+Actor Z : -176 | rotation Y : -117
+Cam : x = 0 | y = -117 | z = -176
+Actor Z : -176 | rotation Y : -116
+Cam : x = 0 | y = -116 | z = -176
+Actor Z : -176 | rotation Y : -116
+Cam : x = 0 | y = -116 | z = -176
+Actor Z : -176 | rotation Y : -116
+Cam : x = 0 | y = -116 | z = -176
+Actor Z : -176 | rotation Y : -116
+Cam : x = 0 | y = -116 | z = -176
+Actor Z : -177 | rotation Y : -116
+Cam : x = 0 | y = -116 | z = -177
+Actor Z : -177 | rotation Y : -116
+Cam : x = 0 | y = -116 | z = -177
+Actor Z : -178 | rotation Y : -116
+Cam : x = 0 | y = -116 | z = -178
+Actor Z : -179 | rotation Y : -116
+Cam : x = 0 | y = -116 | z = -179
+Actor Z : -181 | rotation Y : -116
+Cam : x = 0 | y = -116 | z = -181
+Actor Z : -184 | rotation Y : -116
+Cam : x = 0 | y = -116 | z = -184
+Actor Z : -187 | rotation Y : -116
+Cam : x = 0 | y = -116 | z = -187
+Actor Z : -190 | rotation Y : -117
+Cam : x = 0 | y = -117 | z = -190
+Actor Z : -193 | rotation Y : -118
+Cam : x = 0 | y = -118 | z = -193
+Actor Z : -197 | rotation Y : -119
+Cam : x = 0 | y = -119 | z = -197
+Actor Z : -201 | rotation Y : -121
+Cam : x = 0 | y = -121 | z = -201
+Actor Z : -203 | rotation Y : -122
+Cam : x = 0 | y = -122 | z = -203
+Actor Z : -205 | rotation Y : -123
+Cam : x = 0 | y = -123 | z = -205
+Actor Z : -206 | rotation Y : -125
+Cam : x = 0 | y = -125 | z = -206
+Actor Z : -207 | rotation Y : -127
+Cam : x = 0 | y = -127 | z = -207
+Actor Z : -208 | rotation Y : -130
+Cam : x = 0 | y = -130 | z = -208
+Actor Z : -209 | rotation Y : -133
+Cam : x = 0 | y = -133 | z = -209
+Actor Z : -210 | rotation Y : -136
+Cam : x = 0 | y = -136 | z = -210
+Actor Z : -211 | rotation Y : -139
+Cam : x = 0 | y = -139 | z = -211
+Actor Z : -211 | rotation Y : -142
+Cam : x = 0 | y = -142 | z = -211
+Actor Z : -211 | rotation Y : -143
+Cam : x = 0 | y = -143 | z = -211
+Actor Z : -211 | rotation Y : -144
+Cam : x = 0 | y = -144 | z = -211
+Actor Z : -211 | rotation Y : -145
+Cam : x = 0 | y = -145 | z = -211
+Actor Z : -211 | rotation Y : -148
+Cam : x = 0 | y = -148 | z = -211
+Actor Z : -210 | rotation Y : -151
+Cam : x = 0 | y = -151 | z = -210
+Actor Z : -210 | rotation Y : -154
+Cam : x = 0 | y = -154 | z = -210
+Actor Z : -210 | rotation Y : -157
+Cam : x = 0 | y = -157 | z = -210
+Actor Z : -210 | rotation Y : -160
+Cam : x = 0 | y = -160 | z = -210
+Actor Z : -210 | rotation Y : -162
+Cam : x = 0 | y = -162 | z = -210
+Actor Z : -210 | rotation Y : -164
+Cam : x = 0 | y = -164 | z = -210
+Actor Z : -210 | rotation Y : -165
+Cam : x = 0 | y = -165 | z = -210
+Actor Z : -210 | rotation Y : -166
+Cam : x = 0 | y = -166 | z = -210
+Actor Z : -210 | rotation Y : -168
+Cam : x = 0 | y = -168 | z = -210
+Actor Z : -210 | rotation Y : -169
+Cam : x = 0 | y = -169 | z = -210
+Actor Z : -210 | rotation Y : -169
+Cam : x = 0 | y = -169 | z = -210
+Actor Z : -210 | rotation Y : -170
+Cam : x = 0 | y = -170 | z = -210
+Actor Z : -210 | rotation Y : -171
+Cam : x = 0 | y = -171 | z = -210
+Actor Z : -210 | rotation Y : -172
+Cam : x = 0 | y = -172 | z = -210
+Actor Z : -210 | rotation Y : -173
+Cam : x = 0 | y = -173 | z = -210
+Actor Z : -210 | rotation Y : -174
+Cam : x = 0 | y = -174 | z = -210
+Actor Z : -210 | rotation Y : -176
+Cam : x = 0 | y = -176 | z = -210
+Actor Z : -211 | rotation Y : -179
+Cam : x = 0 | y = -179 | z = -211
+Actor Z : -212 | rotation Y : -182
+Cam : x = 0 | y = -182 | z = -212
+Actor Z : -213 | rotation Y : -184
+Cam : x = 0 | y = -184 | z = -213
+Actor Z : -214 | rotation Y : -186
+Cam : x = 0 | y = -186 | z = -214
+Actor Z : -214 | rotation Y : -187
+Cam : x = 0 | y = -187 | z = -214
+Actor Z : -215 | rotation Y : -189
+Cam : x = 0 | y = -189 | z = -215
+Actor Z : -216 | rotation Y : -191
+Cam : x = 0 | y = -191 | z = -216
+Actor Z : -217 | rotation Y : -193
+Cam : x = 0 | y = -193 | z = -217
+Actor Z : -218 | rotation Y : -194
+Cam : x = 0 | y = -194 | z = -218
+Actor Z : -219 | rotation Y : -194
+Cam : x = 0 | y = -194 | z = -219
+Actor Z : -220 | rotation Y : -194
+Cam : x = 0 | y = -194 | z = -220
+Actor Z : -220 | rotation Y : -194
+Cam : x = 0 | y = -194 | z = -220
+Actor Z : -220 | rotation Y : -194
+Cam : x = 0 | y = -194 | z = -220
+Actor Z : -220 | rotation Y : -194
+Cam : x = 0 | y = -194 | z = -220
+Actor Z : -220 | rotation Y : -194
+Cam : x = 0 | y = -194 | z = -220
+Actor Z : -220 | rotation Y : -194
+Cam : x = 0 | y = -194 | z = -220
+Actor Z : -220 | rotation Y : -194
+Cam : x = 0 | y = -194 | z = -220
+Actor Z : -220 | rotation Y : -194
+Cam : x = 0 | y = -194 | z = -220
+Actor Z : -221 | rotation Y : -193
+Cam : x = 0 | y = -193 | z = -221
+Actor Z : -222 | rotation Y : -193
+Cam : x = 0 | y = -193 | z = -222
+Actor Z : -223 | rotation Y : -192
+Cam : x = 0 | y = -192 | z = -223
+Actor Z : -224 | rotation Y : -192
+Cam : x = 0 | y = -192 | z = -224
+Actor Z : -225 | rotation Y : -192
+Cam : x = 0 | y = -192 | z = -225
+Actor Z : -226 | rotation Y : -192
+Cam : x = 0 | y = -192 | z = -226
+Actor Z : -227 | rotation Y : -192
+Cam : x = 0 | y = -192 | z = -227
+Actor Z : -228 | rotation Y : -192
+Cam : x = 0 | y = -192 | z = -228
+Actor Z : -229 | rotation Y : -192
+Cam : x = 0 | y = -192 | z = -229
+Actor Z : -230 | rotation Y : -191
+Cam : x = 0 | y = -191 | z = -230
+Actor Z : -231 | rotation Y : -191
+Cam : x = 0 | y = -191 | z = -231
+Actor Z : -233 | rotation Y : -190
+Cam : x = 0 | y = -190 | z = -233
+Actor Z : -235 | rotation Y : -189
+Cam : x = 0 | y = -189 | z = -235
+Actor Z : -237 | rotation Y : -188
+Cam : x = 0 | y = -188 | z = -237
+Actor Z : -239 | rotation Y : -187
+Cam : x = 0 | y = -187 | z = -239
+Actor Z : -241 | rotation Y : -186
+Cam : x = 0 | y = -186 | z = -241
+Actor Z : -243 | rotation Y : -185
+Cam : x = 0 | y = -185 | z = -243
+Actor Z : -246 | rotation Y : -183
+Cam : x = 0 | y = -183 | z = -246
+Actor Z : -250 | rotation Y : -181
+Cam : x = 0 | y = -181 | z = -250
+Actor Z : -253 | rotation Y : -179
+Cam : x = 0 | y = -179 | z = -253
+Actor Z : -257 | rotation Y : -178
+Cam : x = 0 | y = -178 | z = -257
+Actor Z : -260 | rotation Y : -177
+Cam : x = 0 | y = -177 | z = -260
+Actor Z : -262 | rotation Y : -176
+Cam : x = 0 | y = -176 | z = -262
+Actor Z : -265 | rotation Y : -174
+Cam : x = 0 | y = -174 | z = -265
+Actor Z : -268 | rotation Y : -172
+Cam : x = 0 | y = -172 | z = -268
+Actor Z : -271 | rotation Y : -170
+Cam : x = 0 | y = -170 | z = -271
+Actor Z : -274 | rotation Y : -168
+Cam : x = 0 | y = -168 | z = -274
+Actor Z : -276 | rotation Y : -166
+Cam : x = 0 | y = -166 | z = -276
+Actor Z : -278 | rotation Y : -165
+Cam : x = 0 | y = -165 | z = -278
+Actor Z : -279 | rotation Y : -164
+Cam : x = 0 | y = -164 | z = -279
+Actor Z : -279 | rotation Y : -163
+Cam : x = 0 | y = -163 | z = -279
+Actor Z : -279 | rotation Y : -162
+Cam : x = 0 | y = -162 | z = -279
+Actor Z : -279 | rotation Y : -161
+Cam : x = 0 | y = -161 | z = -279
+Actor Z : -279 | rotation Y : -160
+Cam : x = 0 | y = -160 | z = -279
+Actor Z : -279 | rotation Y : -158
+Cam : x = 0 | y = -158 | z = -279
+Actor Z : -279 | rotation Y : -156
+Cam : x = 0 | y = -156 | z = -279
+Actor Z : -279 | rotation Y : -153
+Cam : x = 0 | y = -153 | z = -279
+Actor Z : -279 | rotation Y : -150
+Cam : x = 0 | y = -150 | z = -279
+Actor Z : -279 | rotation Y : -147
+Cam : x = 0 | y = -147 | z = -279
+Actor Z : -278 | rotation Y : -144
+Cam : x = 0 | y = -144 | z = -278
+Actor Z : -275 | rotation Y : -137
+Cam : x = 0 | y = -137 | z = -275
+Actor Z : -275 | rotation Y : -136
+Cam : x = 0 | y = -136 | z = -275
+Actor Z : -275 | rotation Y : -135
+Cam : x = 0 | y = -135 | z = -275
+Actor Z : -274 | rotation Y : -132
+Cam : x = 0 | y = -132 | z = -274
+Actor Z : -273 | rotation Y : -129
+Cam : x = 0 | y = -129 | z = -273
+Actor Z : -272 | rotation Y : -127
+Cam : x = 0 | y = -127 | z = -272
+Actor Z : -271 | rotation Y : -124
+Cam : x = 0 | y = -124 | z = -271
+Actor Z : -269 | rotation Y : -122
+Cam : x = 0 | y = -122 | z = -269
+Actor Z : -268 | rotation Y : -122
+Cam : x = 0 | y = -122 | z = -268
+Actor Z : -266 | rotation Y : -121
+Cam : x = 0 | y = -121 | z = -266
+Actor Z : -264 | rotation Y : -121
+Cam : x = 0 | y = -121 | z = -264
+Actor Z : -261 | rotation Y : -121
+Cam : x = 0 | y = -121 | z = -261
+Actor Z : -258 | rotation Y : -121
+Cam : x = 0 | y = -121 | z = -258
+Actor Z : -254 | rotation Y : -121
+Cam : x = 0 | y = -121 | z = -254
+Actor Z : -250 | rotation Y : -121
+Cam : x = 0 | y = -121 | z = -250
+Actor Z : -245 | rotation Y : -121
+Cam : x = 0 | y = -121 | z = -245
+Actor Z : -243 | rotation Y : -121
+Cam : x = 0 | y = -121 | z = -243
+Actor Z : -241 | rotation Y : -121
+Cam : x = 0 | y = -121 | z = -241
+Actor Z : -237 | rotation Y : -121
+Cam : x = 0 | y = -121 | z = -237
+Actor Z : -234 | rotation Y : -121
+Cam : x = 0 | y = -121 | z = -234
+Actor Z : -231 | rotation Y : -121
+Cam : x = 0 | y = -121 | z = -231
+Actor Z : -225 | rotation Y : -121
+Cam : x = 0 | y = -121 | z = -225
+Actor Z : -225 | rotation Y : -121
+Cam : x = 0 | y = -121 | z = -225
+Actor Z : -224 | rotation Y : -121
+Cam : x = 0 | y = -121 | z = -224
+Actor Z : -223 | rotation Y : -121
+Cam : x = 0 | y = -121 | z = -223
+Actor Z : -223 | rotation Y : -121
+Cam : x = 0 | y = -121 | z = -223
+Actor Z : -223 | rotation Y : -121
+Cam : x = 0 | y = -121 | z = -223
+Actor Z : -223 | rotation Y : -121
+Cam : x = 0 | y = -121 | z = -223
+Actor Z : -223 | rotation Y : -121
+Cam : x = 0 | y = -121 | z = -223
+Actor Z : -223 | rotation Y : -121
+Cam : x = 0 | y = -121 | z = -223
+Actor Z : -222 | rotation Y : -122
+Cam : x = 0 | y = -122 | z = -222
+Actor Z : -221 | rotation Y : -123
+Cam : x = 0 | y = -123 | z = -221
+Actor Z : -221 | rotation Y : -124
+Cam : x = 0 | y = -124 | z = -221
+Actor Z : -220 | rotation Y : -129
+Cam : x = 0 | y = -129 | z = -220
+Actor Z : -220 | rotation Y : -130
+Cam : x = 0 | y = -130 | z = -220
+Actor Z : -220 | rotation Y : -131
+Cam : x = 0 | y = -131 | z = -220
+Actor Z : -220 | rotation Y : -134
+Cam : x = 0 | y = -134 | z = -220
+Actor Z : -220 | rotation Y : -137
+Cam : x = 0 | y = -137 | z = -220
+Actor Z : -220 | rotation Y : -139
+Cam : x = 0 | y = -139 | z = -220
+Actor Z : -220 | rotation Y : -139
+Cam : x = 0 | y = -139 | z = -220
+Actor Z : -220 | rotation Y : -140
+Cam : x = 0 | y = -140 | z = -220
+Actor Z : -221 | rotation Y : -142
+Cam : x = 0 | y = -142 | z = -221
+Actor Z : -222 | rotation Y : -144
+Cam : x = 0 | y = -144 | z = -222
+Actor Z : -223 | rotation Y : -146
+Cam : x = 0 | y = -146 | z = -223
+Actor Z : -224 | rotation Y : -148
+Cam : x = 0 | y = -148 | z = -224
+Actor Z : -225 | rotation Y : -150
+Cam : x = 0 | y = -150 | z = -225
+Actor Z : -226 | rotation Y : -152
+Cam : x = 0 | y = -152 | z = -226
+Actor Z : -227 | rotation Y : -153
+Cam : x = 0 | y = -153 | z = -227
+Actor Z : -229 | rotation Y : -155
+Cam : x = 0 | y = -155 | z = -229
+Actor Z : -231 | rotation Y : -157
+Cam : x = 0 | y = -157 | z = -231
+Actor Z : -234 | rotation Y : -159
+Cam : x = 0 | y = -159 | z = -234
+Actor Z : -237 | rotation Y : -161
+Cam : x = 0 | y = -161 | z = -237
+Actor Z : -238 | rotation Y : -161
+Cam : x = 0 | y = -161 | z = -238
+Actor Z : -239 | rotation Y : -162
+Cam : x = 0 | y = -162 | z = -239
+Actor Z : -240 | rotation Y : -162
+Cam : x = 0 | y = -162 | z = -240
+Actor Z : -241 | rotation Y : -162
+Cam : x = 0 | y = -162 | z = -241
+Actor Z : -242 | rotation Y : -162
+Cam : x = 0 | y = -162 | z = -242
+Actor Z : -243 | rotation Y : -162
+Cam : x = 0 | y = -162 | z = -243
+Actor Z : -244 | rotation Y : -162
+Cam : x = 0 | y = -162 | z = -244
+Actor Z : -245 | rotation Y : -162
+Cam : x = 0 | y = -162 | z = -245
+Actor Z : -246 | rotation Y : -162
+Cam : x = 0 | y = -162 | z = -246
+Actor Z : -247 | rotation Y : -162
+Cam : x = 0 | y = -162 | z = -247
+Actor Z : -248 | rotation Y : -162
+Cam : x = 0 | y = -162 | z = -248
+Actor Z : -249 | rotation Y : -162
+Cam : x = 0 | y = -162 | z = -249
+Actor Z : -249 | rotation Y : -162
+Cam : x = 0 | y = -162 | z = -249
+Actor Z : -250 | rotation Y : -162
+Cam : x = 0 | y = -162 | z = -250
+Actor Z : -251 | rotation Y : -163
+Cam : x = 0 | y = -163 | z = -251
+Actor Z : -252 | rotation Y : -164
+Cam : x = 0 | y = -164 | z = -252
+Actor Z : -253 | rotation Y : -165
+Cam : x = 0 | y = -165 | z = -253
+Actor Z : -254 | rotation Y : -165
+Cam : x = 0 | y = -165 | z = -254
+Actor Z : -255 | rotation Y : -165
+Cam : x = 0 | y = -165 | z = -255
+Actor Z : -256 | rotation Y : -165
+Cam : x = 0 | y = -165 | z = -256
+Actor Z : -257 | rotation Y : -165
+Cam : x = 0 | y = -165 | z = -257
+Actor Z : -258 | rotation Y : -165
+Cam : x = 0 | y = -165 | z = -258
+Actor Z : -259 | rotation Y : -165
+Cam : x = 0 | y = -165 | z = -259
+Actor Z : -259 | rotation Y : -165
+Cam : x = 0 | y = -165 | z = -259
+Actor Z : -260 | rotation Y : -165
+Cam : x = 0 | y = -165 | z = -260
+Actor Z : -262 | rotation Y : -165
+Cam : x = 0 | y = -165 | z = -262
+Actor Z : -264 | rotation Y : -165
+Cam : x = 0 | y = -165 | z = -264
+Actor Z : -266 | rotation Y : -165
+Cam : x = 0 | y = -165 | z = -266
+Actor Z : -268 | rotation Y : -165
+Cam : x = 0 | y = -165 | z = -268
+Actor Z : -270 | rotation Y : -165
+Cam : x = 0 | y = -165 | z = -270
+Actor Z : -272 | rotation Y : -165
+Cam : x = 0 | y = -165 | z = -272
+Actor Z : -275 | rotation Y : -165
+Cam : x = 0 | y = -165 | z = -275
+Actor Z : -278 | rotation Y : -165
+Cam : x = 0 | y = -165 | z = -278
+Actor Z : -281 | rotation Y : -165
+Cam : x = 0 | y = -165 | z = -281
+Actor Z : -282 | rotation Y : -165
+Cam : x = 0 | y = -165 | z = -282
+Actor Z : -283 | rotation Y : -165
+Cam : x = 0 | y = -165 | z = -283
+Actor Z : -285 | rotation Y : -164
+Cam : x = 0 | y = -164 | z = -285
+Actor Z : -286 | rotation Y : -163
+Cam : x = 0 | y = -163 | z = -286
+Actor Z : -287 | rotation Y : -163
+Cam : x = 0 | y = -163 | z = -287
+Actor Z : -288 | rotation Y : -162
+Cam : x = 0 | y = -162 | z = -288
+Actor Z : -289 | rotation Y : -161
+Cam : x = 0 | y = -161 | z = -289
+Actor Z : -290 | rotation Y : -160
+Cam : x = 0 | y = -160 | z = -290
+Actor Z : -292 | rotation Y : -159
+Cam : x = 0 | y = -159 | z = -292
+Actor Z : -294 | rotation Y : -158
+Cam : x = 0 | y = -158 | z = -294
+Actor Z : -296 | rotation Y : -157
+Cam : x = 0 | y = -157 | z = -296
+Actor Z : -299 | rotation Y : -156
+Cam : x = 0 | y = -156 | z = -299
+Actor Z : -301 | rotation Y : -155
+Cam : x = 0 | y = -155 | z = -301
+Actor Z : -303 | rotation Y : -154
+Cam : x = 0 | y = -154 | z = -303
+Actor Z : -307 | rotation Y : -152
+Cam : x = 0 | y = -152 | z = -307
+Actor Z : -311 | rotation Y : -151
+Cam : x = 0 | y = -151 | z = -311
+Actor Z : -315 | rotation Y : -150
+Cam : x = 0 | y = -150 | z = -315
+Actor Z : -318 | rotation Y : -149
+Cam : x = 0 | y = -149 | z = -318
+Actor Z : -322 | rotation Y : -148
+Cam : x = 0 | y = -148 | z = -322
+Actor Z : -325 | rotation Y : -146
+Cam : x = 0 | y = -146 | z = -325
+Actor Z : -328 | rotation Y : -144
+Cam : x = 0 | y = -144 | z = -328
+Actor Z : -331 | rotation Y : -142
+Cam : x = 0 | y = -142 | z = -331
+Actor Z : -334 | rotation Y : -140
+Cam : x = 0 | y = -140 | z = -334
+Actor Z : -337 | rotation Y : -139
+Cam : x = 0 | y = -139 | z = -337
+Actor Z : -339 | rotation Y : -138
+Cam : x = 0 | y = -138 | z = -339
+Actor Z : -340 | rotation Y : -138
+Cam : x = 0 | y = -138 | z = -340
+Actor Z : -342 | rotation Y : -137
+Cam : x = 0 | y = -137 | z = -342
+Actor Z : -348 | rotation Y : -133
+Cam : x = 0 | y = -133 | z = -348
+Actor Z : -349 | rotation Y : -132
+Cam : x = 0 | y = -132 | z = -349
+Actor Z : -350 | rotation Y : -131
+Cam : x = 0 | y = -131 | z = -350
+Actor Z : -351 | rotation Y : -130
+Cam : x = 0 | y = -130 | z = -351
+Actor Z : -353 | rotation Y : -127
+Cam : x = 0 | y = -127 | z = -353
+Actor Z : -355 | rotation Y : -124
+Cam : x = 0 | y = -124 | z = -355
+Actor Z : -357 | rotation Y : -122
+Cam : x = 0 | y = -122 | z = -357
+Actor Z : -359 | rotation Y : -120
+Cam : x = 0 | y = -120 | z = -359
+Actor Z : -360 | rotation Y : -119
+Cam : x = 0 | y = -119 | z = -360
+Actor Z : -360 | rotation Y : -118
+Cam : x = 0 | y = -118 | z = -360
+Actor Z : -360 | rotation Y : -117
+Cam : x = 0 | y = -117 | z = -360
+Actor Z : -360 | rotation Y : -114
+Cam : x = 0 | y = -114 | z = -360
+Actor Z : -360 | rotation Y : -111
+Cam : x = 0 | y = -111 | z = -360
+Actor Z : -360 | rotation Y : -108
+Cam : x = 0 | y = -108 | z = -360
+Actor Z : -359 | rotation Y : -106
+Cam : x = 0 | y = -106 | z = -359
+Actor Z : -358 | rotation Y : -103
+Cam : x = 0 | y = -103 | z = -358
+Actor Z : -356 | rotation Y : -100
+Cam : x = 0 | y = -100 | z = -356
+Actor Z : -353 | rotation Y : -96
+Cam : x = 0 | y = -96 | z = -353
+Actor Z : -349 | rotation Y : -93
+Cam : x = 0 | y = -93 | z = -349
+Actor Z : -345 | rotation Y : -90
+Cam : x = 0 | y = -90 | z = -345
+Actor Z : -341 | rotation Y : -88
+Cam : x = 0 | y = -88 | z = -341
+Actor Z : -339 | rotation Y : -86
+Cam : x = 0 | y = -86 | z = -339
+Actor Z : -336 | rotation Y : -84
+Cam : x = 0 | y = -84 | z = -336
+Actor Z : -334 | rotation Y : -82
+Cam : x = 0 | y = -82 | z = -334
+Actor Z : -330 | rotation Y : -80
+Cam : x = 0 | y = -80 | z = -330
+Actor Z : -325 | rotation Y : -78
+Cam : x = 0 | y = -78 | z = -325
+Actor Z : -319 | rotation Y : -76
+Cam : x = 0 | y = -76 | z = -319
+Actor Z : -314 | rotation Y : -74
+Cam : x = 0 | y = -74 | z = -314
+Actor Z : -310 | rotation Y : -72
+Cam : x = 0 | y = -72 | z = -310
+Actor Z : -306 | rotation Y : -70
+Cam : x = 0 | y = -70 | z = -306
+Actor Z : -301 | rotation Y : -69
+Cam : x = 0 | y = -69 | z = -301
+Actor Z : -294 | rotation Y : -67
+Cam : x = 0 | y = -67 | z = -294
+Actor Z : -287 | rotation Y : -65
+Cam : x = 0 | y = -65 | z = -287
+Actor Z : -282 | rotation Y : -64
+Cam : x = 0 | y = -64 | z = -282
+Actor Z : -274 | rotation Y : -62
+Cam : x = 0 | y = -62 | z = -274
+Actor Z : -268 | rotation Y : -60
+Cam : x = 0 | y = -60 | z = -268
+Actor Z : -264 | rotation Y : -59
+Cam : x = 0 | y = -59 | z = -264
+Actor Z : -258 | rotation Y : -58
+Cam : x = 0 | y = -58 | z = -258
+Actor Z : -256 | rotation Y : -58
+Cam : x = 0 | y = -58 | z = -256
+Actor Z : -256 | rotation Y : -58
+Cam : x = 0 | y = -58 | z = -256
+Actor Z : -256 | rotation Y : -58
+Cam : x = 0 | y = -58 | z = -256
+Actor Z : -255 | rotation Y : -58
+Cam : x = 0 | y = -58 | z = -255
+Actor Z : -255 | rotation Y : -58
+Cam : x = 0 | y = -58 | z = -255
+Actor Z : -254 | rotation Y : -58
+Cam : x = 0 | y = -58 | z = -254
+Actor Z : -253 | rotation Y : -58
+Cam : x = 0 | y = -58 | z = -253
+Actor Z : -252 | rotation Y : -58
+Cam : x = 0 | y = -58 | z = -252
+Actor Z : -250 | rotation Y : -59
+Cam : x = 0 | y = -59 | z = -250
+Actor Z : -247 | rotation Y : -60
+Cam : x = 0 | y = -60 | z = -247
+Actor Z : -244 | rotation Y : -61
+Cam : x = 0 | y = -61 | z = -244
+Actor Z : -241 | rotation Y : -62
+Cam : x = 0 | y = -62 | z = -241
+Actor Z : -238 | rotation Y : -63
+Cam : x = 0 | y = -63 | z = -238
+Actor Z : -236 | rotation Y : -64
+Cam : x = 0 | y = -64 | z = -236
+Actor Z : -235 | rotation Y : -65
+Cam : x = 0 | y = -65 | z = -235
+Actor Z : -234 | rotation Y : -65
+Cam : x = 0 | y = -65 | z = -234
+Actor Z : -233 | rotation Y : -65
+Cam : x = 0 | y = -65 | z = -233
+Actor Z : -233 | rotation Y : -65
+Cam : x = 0 | y = -65 | z = -233
+Actor Z : -233 | rotation Y : -65
+Cam : x = 0 | y = -65 | z = -233
+Actor Z : -233 | rotation Y : -65
+Cam : x = 0 | y = -65 | z = -233
+Actor Z : -233 | rotation Y : -65
+Cam : x = 0 | y = -65 | z = -233
+Actor Z : -233 | rotation Y : -65
+Cam : x = 0 | y = -65 | z = -233
+Actor Z : -233 | rotation Y : -65
+Cam : x = 0 | y = -65 | z = -233
+Actor Z : -233 | rotation Y : -65
+Cam : x = 0 | y = -65 | z = -233
+Actor Z : -231 | rotation Y : -65
+Cam : x = 0 | y = -65 | z = -231
+Actor Z : -229 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -229
+Actor Z : -226 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -226
+Actor Z : -223 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -223
+Actor Z : -219 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -219
+Actor Z : -217 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -217
+Actor Z : -215 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -215
+Actor Z : -213 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -213
+Actor Z : -209 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -209
+Actor Z : -204 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -204
+Actor Z : -199 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -199
+Actor Z : -195 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -195
+Actor Z : -190 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -190
+Actor Z : -185 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -185
+Actor Z : -180 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -180
+Actor Z : -175 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -175
+Actor Z : -170 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -170
+Actor Z : -167 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -167
+Actor Z : -164 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -164
+Actor Z : -155 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -155
+Actor Z : -147 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -147
+Actor Z : -140 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -140
+Actor Z : -133 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -133
+Actor Z : -127 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -127
+Actor Z : -122 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -122
+Actor Z : -117 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -117
+Actor Z : -112 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -112
+Actor Z : -107 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -107
+Actor Z : -103 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -103
+Actor Z : -101 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -101
+Actor Z : -99 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -99
+Actor Z : -96 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -96
+Actor Z : -93 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -93
+Actor Z : -90 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -90
+Actor Z : -87 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -87
+Actor Z : -85 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -85
+Actor Z : -83 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -83
+Actor Z : -81 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -81
+Actor Z : -78 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -78
+Actor Z : -75 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -75
+Actor Z : -72 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -72
+Actor Z : -71 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -71
+Actor Z : -69 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -69
+Actor Z : -67 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -67
+Actor Z : -65 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -65
+Actor Z : -60 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -60
+Actor Z : -54 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -54
+Actor Z : -48 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -48
+Actor Z : -42 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -42
+Actor Z : -36 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -36
+Actor Z : -29 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -29
+Actor Z : -21 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -21
+Actor Z : -12 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -12
+Actor Z : -8 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = -8
+Actor Z : 4 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 4
+Actor Z : 13 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 13
+Actor Z : 22 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 22
+Actor Z : 31 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 31
+Actor Z : 39 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 39
+Actor Z : 46 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 46
+Actor Z : 52 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 52
+Actor Z : 59 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 59
+Actor Z : 64 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 64
+Actor Z : 69 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 69
+Actor Z : 71 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 71
+Actor Z : 73 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 73
+Actor Z : 78 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 78
+Actor Z : 83 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 83
+Actor Z : 87 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 87
+Actor Z : 89 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 89
+Actor Z : 91 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 91
+Actor Z : 93 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 93
+Actor Z : 98 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 98
+Actor Z : 104 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 104
+Actor Z : 109 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 109
+Actor Z : 114 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 114
+Actor Z : 116 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 116
+Actor Z : 118 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 118
+Actor Z : 120 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 120
+Actor Z : 128 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 128
+Actor Z : 133 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 133
+Actor Z : 143 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 143
+Actor Z : 145 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 145
+Actor Z : 147 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 147
+Actor Z : 153 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 153
+Actor Z : 159 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 159
+Actor Z : 164 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 164
+Actor Z : 169 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 169
+Actor Z : 171 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 171
+Actor Z : 173 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 173
+Actor Z : 177 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 177
+Actor Z : 182 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 182
+Actor Z : 187 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 187
+Actor Z : 192 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 192
+Actor Z : 196 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 196
+Actor Z : 200 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 200
+Actor Z : 204 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 204
+Actor Z : 208 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 208
+Actor Z : 213 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 213
+Actor Z : 217 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 217
+Actor Z : 219 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 219
+Actor Z : 221 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 221
+Actor Z : 224 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 224
+Actor Z : 227 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 227
+Actor Z : 230 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 230
+Actor Z : 233 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 233
+Actor Z : 236 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 236
+Actor Z : 239 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 239
+Actor Z : 243 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 243
+Actor Z : 247 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 247
+Actor Z : 251 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 251
+Actor Z : 265 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 265
+Actor Z : 267 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 267
+Actor Z : 269 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 269
+Actor Z : 274 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 274
+Actor Z : 279 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 279
+Actor Z : 283 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 283
+Actor Z : 287 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 287
+Actor Z : 292 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 292
+Actor Z : 296 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 296
+Actor Z : 299 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 299
+Actor Z : 302 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 302
+Actor Z : 305 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 305
+Actor Z : 308 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 308
+Actor Z : 308 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 308
+Actor Z : 308 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 308
+Actor Z : 309 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 309
+Actor Z : 311 | rotation Y : -67
+Cam : x = 0 | y = -67 | z = 311
+Actor Z : 312 | rotation Y : -68
+Cam : x = 0 | y = -68 | z = 312
+Actor Z : 312 | rotation Y : -70
+Cam : x = 0 | y = -70 | z = 312
+Actor Z : 312 | rotation Y : -71
+Cam : x = 0 | y = -71 | z = 312
+Actor Z : 312 | rotation Y : -71
+Cam : x = 0 | y = -71 | z = 312
+Actor Z : 312 | rotation Y : -71
+Cam : x = 0 | y = -71 | z = 312
+Actor Z : 312 | rotation Y : -71
+Cam : x = 0 | y = -71 | z = 312
+Actor Z : 312 | rotation Y : -71
+Cam : x = 0 | y = -71 | z = 312
+Actor Z : 312 | rotation Y : -71
+Cam : x = 0 | y = -71 | z = 312
+Actor Z : 312 | rotation Y : -71
+Cam : x = 0 | y = -71 | z = 312
+Actor Z : 312 | rotation Y : -71
+Cam : x = 0 | y = -71 | z = 312
+Actor Z : 312 | rotation Y : -71
+Cam : x = 0 | y = -71 | z = 312
+Actor Z : 312 | rotation Y : -71
+Cam : x = 0 | y = -71 | z = 312
+Actor Z : 312 | rotation Y : -71
+Cam : x = 0 | y = -71 | z = 312
+Actor Z : 312 | rotation Y : -71
+Cam : x = 0 | y = -71 | z = 312
+Actor Z : 312 | rotation Y : -71
+Cam : x = 0 | y = -71 | z = 312
+Actor Z : 312 | rotation Y : -71
+Cam : x = 0 | y = -71 | z = 312
+Actor Z : 312 | rotation Y : -71
+Cam : x = 0 | y = -71 | z = 312
+Actor Z : 312 | rotation Y : -71
+Cam : x = 0 | y = -71 | z = 312
+Actor Z : 312 | rotation Y : -71
+Cam : x = 0 | y = -71 | z = 312
+Actor Z : 312 | rotation Y : -71
+Cam : x = 0 | y = -71 | z = 312
+Actor Z : 312 | rotation Y : -71
+Cam : x = 0 | y = -71 | z = 312
+Actor Z : 312 | rotation Y : -71
+Cam : x = 0 | y = -71 | z = 312
+Actor Z : 312 | rotation Y : -71
+Cam : x = 0 | y = -71 | z = 312
+Actor Z : 312 | rotation Y : -71
+Cam : x = 0 | y = -71 | z = 312
+Actor Z : 312 | rotation Y : -71
+Cam : x = 0 | y = -71 | z = 312
+Actor Z : 312 | rotation Y : -71
+Cam : x = 0 | y = -71 | z = 312
+Actor Z : 312 | rotation Y : -71
+Cam : x = 0 | y = -71 | z = 312
+Actor Z : 301 | rotation Y : -69
+Cam : x = 0 | y = -69 | z = 301
+Actor Z : 291 | rotation Y : -66
+Cam : x = 0 | y = -66 | z = 291
+Actor Z : 280 | rotation Y : -63
+Cam : x = 0 | y = -63 | z = 280
+Actor Z : 271 | rotation Y : -59
+Cam : x = 0 | y = -59 | z = 271
+Actor Z : 267 | rotation Y : -58
+Cam : x = 0 | y = -58 | z = 267
+Actor Z : 262 | rotation Y : -57
+Cam : x = 0 | y = -57 | z = 262
+Actor Z : 248 | rotation Y : -54
+Cam : x = 0 | y = -54 | z = 248
+Actor Z : 233 | rotation Y : -51
+Cam : x = 0 | y = -51 | z = 233
+Actor Z : 221 | rotation Y : -50
+Cam : x = 0 | y = -50 | z = 221
+Actor Z : 213 | rotation Y : -48
+Cam : x = 0 | y = -48 | z = 213
+Actor Z : 208 | rotation Y : -47
+Cam : x = 0 | y = -47 | z = 208
+Actor Z : 203 | rotation Y : -46
+Cam : x = 0 | y = -46 | z = 203
+Actor Z : 196 | rotation Y : -45
+Cam : x = 0 | y = -45 | z = 196
+Actor Z : 190 | rotation Y : -44
+Cam : x = 0 | y = -44 | z = 190
+Actor Z : 186 | rotation Y : -43
+Cam : x = 0 | y = -43 | z = 186
+Actor Z : 182 | rotation Y : -42
+Cam : x = 0 | y = -42 | z = 182
+Actor Z : 181 | rotation Y : -42
+Cam : x = 0 | y = -42 | z = 181
+Actor Z : 179 | rotation Y : -41
+Cam : x = 0 | y = -41 | z = 179
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40
+Cam : x = 0 | y = -40 | z = 177
+Actor Z : 177 | rotation Y : -40

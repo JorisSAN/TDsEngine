@@ -100,7 +100,6 @@ inline bool IsColliding(CollisionComponent* colisionA, CollisionComponent* colis
 			(aboxmin[1] <= bboxmax[1] && aboxmax[1] >= bboxmin[1]) &&
 			(aboxmin[2] <= bboxmax[2] && aboxmax[2] >= bboxmin[2])) {
 
-			std::cout << "Collision Effective Between "<< colisionA->getName() << " and " << colisionB->getName() << "\n";
 			bboxmin[0] =  colisionB->getMin()[0];
 			bboxmin[1] = colisionB->getMin()[1];
 			bboxmin[2] = colisionB->getMin()[2] ;

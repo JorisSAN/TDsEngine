@@ -128,6 +128,7 @@ void Carousel::update()
 
 	tase6->setRotation(0, -time * 45 * 2, 0);
 	tase6->setPosition(calculPositionTase2[0], tase6->getPosition()[1], calculPositionTase2[2]);
+	
 
 	Actor::update(); // Imperatively after the modification
 }

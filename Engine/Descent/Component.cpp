@@ -88,9 +88,9 @@ float* Component::computeTransform() {
     #############################
     */
 
-    rotationResult = Quaternion(axeX, rotationX);
+    rotationResult = Quaternion(axeZ, rotationZ);
     rotationResult = Quaternion::concatenate(rotationResult, Quaternion(axeY, rotationY));
-    rotationResult = Quaternion::concatenate(rotationResult, Quaternion(axeZ, rotationZ));
+    rotationResult = Quaternion::concatenate(rotationResult, Quaternion(axeX, rotationX));
 
     mathMatrix::createFromQuaternion(m_matrix, rotationResult);
     mathMatrix::translate(m_matrix, positionX, positionY, positionZ);

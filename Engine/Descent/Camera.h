@@ -28,4 +28,3 @@ private :
 	float width		= 1280;
 	float height	= 720;
 };
-

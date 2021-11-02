@@ -1,5 +1,4 @@
 #include "Game.h"
-#include "Carousel.h"
 #include "FirstPersonCharacter.h"
 #include "Camera.h"
 #include "Timer.h"
@@ -42,6 +41,7 @@ bool Game::loop() {
     pipe.redirect(&file);
     inputSetMouseLock(false);
     m_inputState.m_mouse.m_mx = 0;
+    m_inputState.m_mouse.m_my = 0;
     if (!entry::processEvents(&m_inputState))
     {
         Actor* player = searchActor("FirstPersonCharacter");
@@ -66,11 +66,16 @@ bool Game::loop() {
             }
             boule->setPerson(pPosition);
             float* rotPlayer = player->getWorldRotation();
-            float   rotationPlayer;
-            rotationPlayer = rotPlayer[2];
-            rotationPlayer += 0 - m_inputState.m_mouse.m_mx / 5;
+            float   rotationPlayer[3];
+            rotationPlayer[0] = rotPlayer[0];
+            rotationPlayer[1] = rotPlayer[1];
+            rotationPlayer[2] = rotPlayer[2];
+            rotationPlayer[1] += 0 - m_inputState.m_mouse.m_my / 5;
+            rotationPlayer[2] += 0 - m_inputState.m_mouse.m_mx / 5;
 
-            player->setWorldRotation(0, 0, rotationPlayer);
+            std::cout << "Actor Z : " << rotationPlayer[2] << " | rotation Y : " << rotationPlayer[1] << std::endl;
+
+            player->setWorldRotation(rotationPlayer[0], rotationPlayer[1], rotationPlayer[2]);
 
         }
 
@@ -85,7 +90,6 @@ bool Game::loop() {
 
     // Go to the next frame
     bgfx::frame();
-    std::cout << "1";
 
     return true;
 }

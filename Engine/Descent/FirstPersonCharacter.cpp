@@ -4,6 +4,7 @@
 #include "Teleporteur.h"
 #include "input.h"
 #include "Game.h"
+#include <iostream>
 
 FirstPersonCharacter::FirstPersonCharacter(char* nameP) :
 	Actor(nameP)
@@ -15,6 +16,7 @@ void FirstPersonCharacter::init()
 {
 	Camera* camera = new Camera(this, "Camera1");
     camera->setPosition(0.0f, 0.0f, 0.0f);
+    camera->setRotation(0.0f, 0.0f, 0.0f);
 	CollisionComponent* colision = new CollisionComponent(this, "CollisionComp", OwnerType::player);
 	colision->setScale(1.f, 1.f, 1.f);
 	Actor::init(); // Imperatively after the creation of the component
@@ -22,6 +24,7 @@ void FirstPersonCharacter::init()
 
 void FirstPersonCharacter::update()
 {
+    float* rotationActor = getWorldRotation();
 
     float* playerPos = getWorldPosition();
 
@@ -53,8 +56,10 @@ void FirstPersonCharacter::update()
     fixCollision(oldPlayerPos);
     Component* cam = searchComponent("Camera1");
     if (cam != nullptr) {
-        cam->setRotation(0, 0, getWorldRotation()[2]);
+        cam->setRotation(rotationActor[0], rotationActor[1], rotationActor[2]);
     }
+
+    std::cout << "Cam : x = " << rotationActor[0] << " | y = " << rotationActor[1] << " | z = " << rotationActor[2] << std::endl;
 
 	Actor::update(); // Imperatively after the modification
 }
