@@ -5,6 +5,8 @@ namespace Collisions {
 
 inline bool IsColliding(CollisionComponent* colisionA, CollisionComponent* colisionB)
 {
+	if (colisionA == nullptr || colisionB == nullptr)
+		return false;
 	//Need to rework everything except aabb aabb
 	if (colisionA->colType ==CollisionType::point || colisionB->colType == CollisionType::point)
 	{

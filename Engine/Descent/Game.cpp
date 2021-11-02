@@ -4,6 +4,7 @@
 #include "Timer.h"
 #include "Level.h"
 #include "Boule.h"
+#include "Balle.h"
 #include "Enemy.h"
 #include "Maths.h"
 #include <iostream>
@@ -41,10 +42,9 @@ bool Game::loop() {
     pipe.redirect(&file);
     inputSetMouseLock(false);
     m_inputState.m_mouse.m_mx = 0;
-    m_inputState.m_mouse.m_my = 0;
     if (!entry::processEvents(&m_inputState))
     {
-        Actor* player = searchActor("FirstPersonCharacter");
+        FirstPersonCharacter* player = static_cast<FirstPersonCharacter*>(searchActor("FirstPersonCharacter"));
         Boule* boule = static_cast<Boule*>(searchActor("boule"));
 
         if (player != nullptr) {
@@ -55,7 +55,6 @@ bool Game::loop() {
             pPosition[2] = personPosition[2];
             if (m_inputState.m_mouse.m_buttons[entry::MouseButton::Left] && !boule->getIsLaunched()) {
                 
-                std::cout << " fromage rape";
                 float gPosition[3] = { -0.0f, 6.0f, 0.0f };
                 float* goalPosition = player->getActorForwardVector();
                 gPosition[0] = goalPosition[0] * 10 + personPosition[0];
@@ -64,18 +63,22 @@ bool Game::loop() {
                
                 boule->setGoalAndPerson(gPosition, pPosition, Timer::getTime());
             }
+            if (m_inputState.m_mouse.m_buttons[entry::MouseButton::Right] && player->canShoot()) 
+            {
+                    Balle* bullet = new Balle(&("bullet" + std::to_string(Timer::getTime()))[0]);
+                    bullet->init();
+                    bullet->setRotStartInstigator(player->getWorldRotation(), player->getWorldPosition(), OwnerType::player);
+                    player->setLastTimeShot(Timer::getTime());
+              
+                
+            }
             boule->setPerson(pPosition);
             float* rotPlayer = player->getWorldRotation();
-            float   rotationPlayer[3];
-            rotationPlayer[0] = rotPlayer[0];
-            rotationPlayer[1] = rotPlayer[1];
-            rotationPlayer[2] = rotPlayer[2];
-            rotationPlayer[1] += 0 - m_inputState.m_mouse.m_my / 5;
-            rotationPlayer[2] += 0 - m_inputState.m_mouse.m_mx / 5;
+            float   rotationPlayer;
+            rotationPlayer = rotPlayer[2];
+            rotationPlayer += 0 - m_inputState.m_mouse.m_mx / 5;
 
-            std::cout << "Actor Z : " << rotationPlayer[2] << " | rotation Y : " << rotationPlayer[1] << std::endl;
-
-            player->setWorldRotation(rotationPlayer[0], rotationPlayer[1], rotationPlayer[2]);
+            player->setWorldRotation(0, 0, rotationPlayer);
 
         }
 
@@ -90,7 +93,7 @@ bool Game::loop() {
 
     // Go to the next frame
     bgfx::frame();
-
+    
     return true;
 }
 
@@ -121,6 +124,7 @@ void Game::removeActor(Actor* actor)
     if (iter != end(actors))
     {
         std::iter_swap(iter, end(actors) - 1);
+        //actors.back()->destroy();
         actors.pop_back();
     }
 }

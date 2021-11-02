@@ -35,8 +35,8 @@ void Boule::setGoalAndPerson(float* gPos, float* pPos,float time)
 	isLaunched = true;
 	timeLaunch = time;
 	complementTime = 0;
+	
 }
-
 void Boule::setPerson(float* pPos)
 {
 
@@ -76,7 +76,7 @@ void Boule::update()
 }
 
 bool Boule::fixCollision(float* oldPosition) {
-
+	
 	CollisionComponent* myCol = static_cast<CollisionComponent*>(searchComponent("colcube"));
 	float pos[3] = { getWorldPosition()[0],getWorldPosition()[1],getWorldPosition()[2] };
 	auto& collisions = Actor::getGame().getAllCollisions();
@@ -103,7 +103,9 @@ bool Boule::fixCollision(float* oldPosition) {
 			}
 			if (col->ownType == OwnerType::enemy) {
 				//Kill the ennemy
+				getGame().removeActor(&col->getOwner());
 				col->getOwner().destroy();
+
 			}
 			
 		}
