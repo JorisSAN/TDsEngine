@@ -42,6 +42,7 @@ bool Game::loop() {
     pipe.redirect(&file);
     inputSetMouseLock(false);
     m_inputState.m_mouse.m_mx = 0;
+    m_inputState.m_mouse.m_my = 0;
     if (!entry::processEvents(&m_inputState))
     {
         FirstPersonCharacter* player = static_cast<FirstPersonCharacter*>(searchActor("FirstPersonCharacter"));
@@ -74,11 +75,14 @@ bool Game::loop() {
             }
             boule->setPerson(pPosition);
             float* rotPlayer = player->getWorldRotation();
-            float   rotationPlayer;
-            rotationPlayer = rotPlayer[2];
-            rotationPlayer += 0 - m_inputState.m_mouse.m_mx / 5;
+            float   rotationPlayer[3];
+            rotationPlayer[0] = rotPlayer[0];
+            rotationPlayer[1] = rotPlayer[1];
+            rotationPlayer[2] = rotPlayer[2];
+            rotationPlayer[1] += 0 - m_inputState.m_mouse.m_my / 5;
+            rotationPlayer[2] += 0 - m_inputState.m_mouse.m_mx / 5;
 
-            player->setWorldRotation(0, 0, rotationPlayer);
+            player->setWorldRotation(rotationPlayer[0], rotationPlayer[1], rotationPlayer[2]);
 
         }
 
