@@ -36,7 +36,7 @@ void ReadFile(int numEtage, Actor* level,Actor* fpchara)
 
 			for (std::string::iterator it = line.begin(); it != line.end(); ++it)
 			{
-				std::cout << *it;
+				//std::cout << *it;
 
 				std::string aaa;
 				switch (*it) 
@@ -93,12 +93,12 @@ void ReadFile(int numEtage, Actor* level,Actor* fpchara)
 				nbrow++;
 			}
 			nbline++;
-			std::cout << "\n";
+			//std::cout << "\n";
 
 			nbrow = 0;
 		}
-		std::cout << "\n";
-		std::cout << "\n";
+		//std::cout << "\n";
+		//std::cout << "\n";
 
 		file.close();
 	}

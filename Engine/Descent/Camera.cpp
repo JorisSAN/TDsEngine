@@ -1,6 +1,8 @@
 #include "Camera.h"
+#include "Timer.h"
 #include "Window.h"
 #include <bx/math.h>
+#include <iostream>
 
 Camera::Camera(Actor* ownerP, char* nameP) :
     Component(ownerP, nameP)
@@ -16,18 +18,15 @@ void Camera::init() {
 }
 
 void Camera::update() {
-    Component::update();
-    float*  cameraComponentPosition  = getPosition();
-    float*  ActorPosition            = owner.getWorldPosition();
     float   cameraPosition[3];
-    cameraPosition[0] = cameraComponentPosition[0] + ActorPosition[0];
-    cameraPosition[1] = cameraComponentPosition[1] + ActorPosition[1];
-    cameraPosition[2] = cameraComponentPosition[2] + ActorPosition[2];
-    float* forwardVectorTemp = getForwardVector();
+    cameraPosition[0] = getPosition()[0] + owner.getWorldPosition()[0];
+    cameraPosition[1] = getPosition()[1] + owner.getWorldPosition()[1];
+    cameraPosition[2] = getPosition()[2] + owner.getWorldPosition()[2];
     float  forwardVector[3];
-    forwardVector[0] = forwardVectorTemp[0];
-    forwardVector[1] = forwardVectorTemp[1];
-    forwardVector[2] = forwardVectorTemp[2];
+    forwardVector[0] = getForwardVector()[0];
+    forwardVector[2] = getForwardVector()[1];
+    forwardVector[1] = getForwardVector()[2];
+    std::cout << "forward : x : " << forwardVector[0] << " | y : " << forwardVector[1] << " | z : " << forwardVector[2] << std::endl;
 
     const bx::Vec3 eye = 
     {   
@@ -35,6 +34,7 @@ void Camera::update() {
         cameraPosition[1],
         cameraPosition[2] 
     };
+    std::cout << "eye : x : " << eye.x << " | y : " << eye.y << " | z : " << eye.z << std::endl;
 
     const bx::Vec3 at = 
     {   
@@ -42,6 +42,7 @@ void Camera::update() {
         eye.y + forwardVector[1],  
         eye.z + forwardVector[2] 
     };
+    std::cout << "at : x : " << at.x << " | y : " << at.y << " | z : " << at.z << std::endl;
 
     float view[16];
     bx::mtxLookAt(view, eye, at);

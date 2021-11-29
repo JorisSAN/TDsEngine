@@ -57,10 +57,9 @@ bool Game::loop() {
             if (m_inputState.m_mouse.m_buttons[entry::MouseButton::Left] && !boule->getIsLaunched()) {
                 
                 float gPosition[3] = { -0.0f, 6.0f, 0.0f };
-                float* goalPosition = player->getActorForwardVector();
-                gPosition[0] = goalPosition[0] * 10 + personPosition[0];
-                gPosition[1] = goalPosition[1] * 10 + personPosition[1];
-                gPosition[2] = goalPosition[2] * 10 + personPosition[2];
+                gPosition[0] = player->getActorForwardVector()[0] * 10 + pPosition[0];
+                gPosition[1] = player->getActorForwardVector()[2] * 10 + pPosition[1];
+                gPosition[2] = player->getActorForwardVector()[1] * 10 + pPosition[2];
                
                 boule->setGoalAndPerson(gPosition, pPosition, Timer::getTime());
             }
@@ -70,17 +69,14 @@ bool Game::loop() {
                     bullet->init();
                     bullet->setRotStartInstigator(player->getWorldRotation(), player->getWorldPosition(), OwnerType::player);
                     player->setLastTimeShot(Timer::getTime());
-              
-                
             }
             boule->setPerson(pPosition);
-            float* rotPlayer = player->getWorldRotation();
             float   rotationPlayer[3];
-            rotationPlayer[0] = rotPlayer[0];
-            rotationPlayer[1] = rotPlayer[1];
-            rotationPlayer[2] = rotPlayer[2];
-            rotationPlayer[1] += 0 - m_inputState.m_mouse.m_my / 5;
-            rotationPlayer[2] += 0 - m_inputState.m_mouse.m_mx / 5;
+            rotationPlayer[0] = player->getWorldRotation()[0];
+            rotationPlayer[1] = player->getWorldRotation()[1];
+            rotationPlayer[2] = player->getWorldRotation()[2];
+            rotationPlayer[1] -= m_inputState.m_mouse.m_mx / 5;
+            rotationPlayer[2] += m_inputState.m_mouse.m_my / 5;
 
             player->setWorldRotation(rotationPlayer[0], rotationPlayer[1], rotationPlayer[2]);
 

@@ -42,9 +42,9 @@ float* Component::computeTransform() {
     float* worldScale       = owner.getWorldScale();
 
     // Rotation management
-    float rotationX = Maths::toRadians(m_rotation[0] + worldRotation[0]);
-    float rotationY = Maths::toRadians(m_rotation[1] + worldRotation[1]);
-    float rotationZ = Maths::toRadians(m_rotation[2] + worldRotation[2]);
+    float rotationX = Maths::toRadians(m_rotation[0] + owner.getWorldRotation()[0]);
+    float rotationY = Maths::toRadians(m_rotation[1] + owner.getWorldRotation()[1]);
+    float rotationZ = Maths::toRadians(m_rotation[2] + owner.getWorldRotation()[2]);
 
     /* Scale management
     #############################

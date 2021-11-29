@@ -14,7 +14,7 @@ FirstPersonCharacter::~FirstPersonCharacter() {}
 
 void FirstPersonCharacter::init()
 {
-	Camera* camera = new Camera(this, "Camera1");
+    Camera* camera = new Camera(this, "Camera1");
     camera->setPosition(0.0f, 0.0f, 0.0f);
     camera->setRotation(0.0f, 0.0f, 0.0f);
 	CollisionComponent* colision = new CollisionComponent(this, "CollisionComp", OwnerType::player);
@@ -24,22 +24,19 @@ void FirstPersonCharacter::init()
 
 void FirstPersonCharacter::update()
 {
-    float* rotationActor = getWorldRotation();
-
+    float time = Timer::getTime();
     float* playerPos = getWorldPosition();
 
     float oldPlayerPos[3] = {playerPos[0],playerPos[1] ,playerPos[2] };
-    float* forwardTempVector = getActorForwardVector();
     float forwardVector[3];
-    forwardVector[0] = forwardTempVector[0];
-    forwardVector[1] = forwardTempVector[1];
-    forwardVector[2] = forwardTempVector[2];
+    forwardVector[0] = getActorForwardVector()[0];
+    forwardVector[2] = getActorForwardVector()[1];
+    forwardVector[1] = getActorForwardVector()[2];
 
-    float* rightTempVector = getActorRightVector();
     float rightVector[3];
-    rightVector[0] = rightTempVector[0];
-    rightVector[1] = rightTempVector[1];
-    rightVector[2] = rightTempVector[2];
+    rightVector[0] = getActorRightVector()[0];
+    rightVector[1] = getActorRightVector()[1];
+    rightVector[2] = getActorRightVector()[2];
 
     if (Actor::getGame().m_inputState.m_key.m_buttons[entry::Key::KeyZ]) {
         setWorldPosition(playerPos[0] + forwardVector[0] * 0.25, playerPos[1] + forwardVector[1] * 0.25, playerPos[2] + forwardVector[2] * 0.25);
@@ -56,10 +53,11 @@ void FirstPersonCharacter::update()
     fixCollision(oldPlayerPos);
     Component* cam = searchComponent("Camera1");
     if (cam != nullptr) {
-        cam->setRotation(rotationActor[0], rotationActor[1], rotationActor[2]);
+        cam->setRotation(getWorldRotation()[0], getWorldRotation()[1], getWorldRotation()[2]);
+        //cam->update();
     }
 
-    std::cout << "Cam : x = " << rotationActor[0] << " | y = " << rotationActor[1] << " | z = " << rotationActor[2] << std::endl;
+    //std::cout << "Cam : x = " << getWorldRotation()[0] << " | y = " << getWorldRotation()[1] << " | z = " << getWorldRotation()[2] << std::endl;
 
 	Actor::update(); // Imperatively after the modification
 }

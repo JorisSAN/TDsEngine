@@ -1,5 +1,6 @@
 #include "FirstPersonCharacter.h"
 #include "Camera.h"
+#include "Cube.h"
 #include "Timer.h"
 #include "input.h"
 #include "Game.h"
@@ -12,6 +13,9 @@ FirstPersonCharacter::~FirstPersonCharacter() {}
 
 void FirstPersonCharacter::init()
 {
+    Cube* base1 = new Cube(this, "cube");
+    base1->setPosition(3.0f, 0.0f, 0.0f);
+
 	Camera* camera = new Camera(this, "Camera1");
     camera->setPosition(0.0f, 0.0f, 0.0f);
 
@@ -21,7 +25,8 @@ void FirstPersonCharacter::init()
 void FirstPersonCharacter::update()
 {
 
-    float* playerPos = getWorldPosition();
+    float* playerPos = getWorldPosition(); 
+    float time = Timer::getTime();
 
     float oldPlayerPos[3] = {playerPos[0],playerPos[1] ,playerPos[2] };
     float* forwardTempVector = getActorForwardVector();
@@ -52,6 +57,11 @@ void FirstPersonCharacter::update()
     Component* cam = searchComponent("Camera1");
     if (cam != nullptr) {
         cam->setRotation(0, 0, getWorldRotation()[2]);
+    }
+
+    Component* cube = searchComponent("cube");
+    if (cube != nullptr) {
+        cube->setRotation(time * 45, time * 45, 0);
     }
 
 	Actor::update(); // Imperatively after the modification

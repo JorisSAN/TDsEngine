@@ -52,8 +52,8 @@ void Balle::setSpeed(float pSpeed)
 float Balle::getSpeed()
 {
 	return speed;
-
 }
+
 void Balle::update()
 {
 	//setWorldPosition(startPosition);
@@ -72,8 +72,8 @@ void Balle::update()
 	float* forwardTempVector = getActorForwardVector();
 	float forwardVector[3];
 	forwardVector[0] = forwardTempVector[0];
-	forwardVector[1] = forwardTempVector[1];
-	forwardVector[2] = forwardTempVector[2];
+	forwardVector[1] = forwardTempVector[2];
+	forwardVector[2] = forwardTempVector[1];
 	setWorldPosition(ballePos[0] + forwardVector[0] * speed, ballePos[1] + forwardVector[1] * speed, ballePos[2] + forwardVector[2] * speed);
 
 	fixCollision(oldBallePos);

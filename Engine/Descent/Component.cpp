@@ -37,14 +37,13 @@ float* Component::computeTransform() {
     float axeY[3] = { 0, 1, 0 };
     float axeZ[3] = { 0, 0, 1 };
 
-    float* worldRotation    = owner.getWorldRotation();
     float* worldPosition    = owner.getWorldPosition();
     float* worldScale       = owner.getWorldScale();
 
     // Rotation management
-    float rotationX = Maths::toRadians(m_rotation[0] + worldRotation[0]);
-    float rotationY = Maths::toRadians(m_rotation[1] + worldRotation[1]);
-    float rotationZ = Maths::toRadians(m_rotation[2] + worldRotation[2]);
+    float rotationX = Maths::toRadians(m_rotation[0] + owner.getWorldRotation()[0]);
+    float rotationY = Maths::toRadians(m_rotation[1] + owner.getWorldRotation()[1]);
+    float rotationZ = Maths::toRadians(m_rotation[2] + owner.getWorldRotation()[2]);
 
     /* Scale management
     #############################
@@ -64,9 +63,9 @@ float* Component::computeTransform() {
     /* Translation management
     #############################
     */
-    float worldRotationX = Maths::toRadians(worldRotation[0]);
-    float worldRotationY = Maths::toRadians(worldRotation[1]);
-    float worldRotationZ = Maths::toRadians(worldRotation[2]);
+    float worldRotationX = Maths::toRadians(owner.getWorldRotation()[0]);
+    float worldRotationY = Maths::toRadians(owner.getWorldRotation()[1]);
+    float worldRotationZ = Maths::toRadians(owner.getWorldRotation()[2]);
 
     float positionY = scaledPositionY * Maths::cos(worldRotationX) - scaledPositionZ * Maths::sin(worldRotationX);
     float positionZ = scaledPositionZ * Maths::cos(worldRotationX) + scaledPositionY * Maths::sin(worldRotationX);

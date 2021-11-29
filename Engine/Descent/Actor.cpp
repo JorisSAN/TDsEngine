@@ -140,32 +140,28 @@ float* Actor::getActorForwardVector() {
 float* Actor::getActorRightVector() {
 	// Get Forward vector
 	float forward[3];
-	float* forwardVector = getActorForwardVector();
-	forward[0] = forwardVector[0];
-	forward[1] = forwardVector[1];
-	forward[2] = forwardVector[2];
+	forward[0] = getActorForwardVector()[0];
+	forward[2] = getActorForwardVector()[1];
+	forward[1] = getActorForwardVector()[2];
 
 	// Normalize the Forward vector
 	float normalizedForward[3];
-	const float* normalizedForwardTemp = Maths::normalize(forward);
-	normalizedForward[0] = normalizedForwardTemp[0];
-	normalizedForward[1] = normalizedForwardTemp[1];
-	normalizedForward[2] = normalizedForwardTemp[2];
+	normalizedForward[0] = Maths::normalize(forward)[0];
+	normalizedForward[1] = Maths::normalize(forward)[1];
+	normalizedForward[2] = Maths::normalize(forward)[2];
 
 	// Get and Normalize the Up vector
 	const float up[3] = { 0.0f, 1.0f, 0.0f };
 	float normalizedUp[3];
-	const float* normalizedUpTemp = Maths::normalize(up);
-	normalizedUp[0] = normalizedUpTemp[0];
-	normalizedUp[1] = normalizedUpTemp[1];
-	normalizedUp[2] = normalizedUpTemp[2];
+	normalizedUp[0] = Maths::normalize(up)[0];
+	normalizedUp[1] = Maths::normalize(up)[1];
+	normalizedUp[2] = Maths::normalize(up)[2];
 
 	// Calculate the Right Vector
-	const float* rightTemp = Maths::cross(normalizedForward, up);
 	float right[3];
-	right[0] = rightTemp[0];
-	right[1] = rightTemp[1];
-	right[2] = rightTemp[2];
+	right[0] = Maths::cross(normalizedForward, up)[0];
+	right[1] = Maths::cross(normalizedForward, up)[1];
+	right[2] = Maths::cross(normalizedForward, up)[2];
 
 	return right;
 }

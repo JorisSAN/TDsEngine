@@ -125,10 +125,9 @@ bool Actor::isTheActor(char* nameP)
 
 float* Actor::getActorForwardVector() {
 	float vector[3];
-	float* rotation = getWorldRotation();
 
-	float angleX = Maths::toRadians(rotation[2]);
-	float angleY = Maths::toRadians(rotation[1]);
+	float angleX = Maths::toRadians(getWorldRotation()[2]);
+	float angleY = Maths::toRadians(getWorldRotation()[1]);
 
 	vector[0] = Maths::cos(angleY) * Maths::cos(angleX);
 	vector[1] = Maths::sin(angleY) * Maths::cos(angleX);
