@@ -34,6 +34,7 @@ public:
 	void close();
 
 	void	addActor(Actor* actor);
+	void	addPendingActor(Actor* actor);
 	void	removeActor(Actor* actor);
 	Actor*	searchActor(char* actorName);
 	void	addCollision(CollisionComponent* collision);
@@ -50,6 +51,7 @@ private:
 	std::vector<Actor*> actors;
 	std::vector<CollisionComponent*> collisions;
 	std::vector<Actor*> pendingActors;
+	std::vector<Actor*> pendingAddActors;
 	std::vector<CollisionComponent*> pendingCollisions;
 };
 

@@ -5,10 +5,25 @@
 Actor::Actor(char* nameP) :
 	game(Game::instance())
 {
+	
 	game.addActor(this);
+
 	setName(nameP);
 }
+Actor::Actor(char* nameP,bool inUpdate) :
+	game(Game::instance())
+{
+	if (inUpdate) {
+		game.addPendingActor(this);
 
+	}
+	else {
+		game.addActor(this);
+
+	}
+
+	setName(nameP);
+}
 Actor::~Actor() {
 	destroy();
 }

@@ -1,18 +1,18 @@
-#include "Enemy.h"
+#include "EnemyMovable.h"
 #include "Cube.h"
 #include "CollisionComponent.h"
 #include "Maths.h"
 #include "MathMatrix.h"
 #include "Timer.h"
 
-Enemy::Enemy(char* nameP) :
+EnemyMovable::EnemyMovable(char* nameP) :
 	Actor(nameP)
 {
 }
 
-Enemy::~Enemy() {}
+EnemyMovable::~EnemyMovable() {}
 
-void Enemy::init()
+void EnemyMovable::init()
 {
 	CollisionComponent* colision = new CollisionComponent(this, "Colision",OwnerType::enemy);
 	colision->setPosition(0.0f, 0.0f, 0.0f);
@@ -24,7 +24,7 @@ void Enemy::init()
 	Actor::init(); // Imperatively after the creation of the component
 }
 
-void Enemy::update()
+void EnemyMovable::update()
 {
 
 	Actor::update(); // Imperatively after the modification

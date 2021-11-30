@@ -11,5 +11,11 @@ public:
 
 	void init()		override;
 	void update()	override;
+
+
+private:
+	float lastTimeShot;
+	float nextShotCD;
+	float damage = 10;
 };
 

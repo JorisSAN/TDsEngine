@@ -10,7 +10,7 @@
 #include "Game.h"
 
 Balle::Balle(char* nameP) :
-	Actor(nameP)
+	Actor(nameP,true)
 {}
 
 Balle::~Balle() {}
@@ -22,7 +22,7 @@ void Balle::init()
 	collision->setScale(0.5, 0.5, 0.5);
 	
 	Cube* base = new Cube(this, "balless");
-	base->setScale(0.2, 0.2,0.2);
+	base->setScale(0.1, 0.1,0.1);
 	base->setPosition(0, 0, 0.0f);
 	 
 	Actor::init(); // Imperatively after the creation of the component
@@ -105,6 +105,10 @@ bool Balle::fixCollision(float* oldPosition) {
 			if (col->ownType == OwnerType::enemy && instigator == OwnerType::player) {
 				//Kill the ennemy
 				getGame().removeActor(&col->getOwner());
+			}
+			if (col->ownType == OwnerType::player && instigator == OwnerType::enemy) {
+				//Kill the ennemy
+				getGame();
 			}
 
 		}

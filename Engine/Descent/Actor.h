@@ -8,6 +8,7 @@ class Actor
 {
 public:
 	Actor(char* nameP);
+	Actor(char* name, bool inUpdate);
 	virtual ~Actor();
 	Actor(const Actor&) = delete;
 	Actor& operator=(const Actor&) = delete;
@@ -34,7 +35,6 @@ public:
 	Component*	searchComponent	(char* componentName);
 
 	bool isTheActor(char* nameP);
-
 	virtual void	init();
 	virtual void	update();
 	void			destroy();

@@ -1,13 +1,13 @@
 #pragma once
 #include "Actor.h"
 
-class Enemy : public Actor
+class EnemyMovable : public Actor
 {
 public:
-	Enemy(char* nameP);
-	virtual ~Enemy();
-	Enemy(const Actor&) = delete;
-	Enemy& operator=(const Enemy&) = delete;
+	EnemyMovable(char* nameP);
+	virtual ~EnemyMovable();
+	EnemyMovable(const Actor&) = delete;
+	EnemyMovable& operator=(const EnemyMovable&) = delete;
 
 	void init()		override;
 	void update()	override;

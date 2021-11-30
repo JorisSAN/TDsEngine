@@ -40,6 +40,7 @@ bool Game::loop() {
 
     file.open("log.txt", std::ios_base::out);
     pipe.redirect(&file);
+    std::cout << "U pdate at" << Timer::getTime() << "   \n";
     inputSetMouseLock(false);
     m_inputState.m_mouse.m_mx = 0;
     m_inputState.m_mouse.m_my = 0;
@@ -86,6 +87,13 @@ bool Game::loop() {
     }
     inputSetMouseLock(true);
 
+    for (auto a : pendingAddActors) {
+        addActor(a);
+    }
+    while (pendingAddActors.size()>-1) {
+        pendingAddActors.pop_back();
+
+    }
     // Actor update
     for (auto a : actors) {
         a->update();
@@ -108,6 +116,10 @@ void Game::close() {
 void Game::addActor(Actor* actor)
 {
     actors.emplace_back(actor);
+}
+void Game::addPendingActor(Actor* actor)
+{
+    pendingAddActors.emplace_back(actor);
 }
 
 void Game::removeActor(Actor* actor)
