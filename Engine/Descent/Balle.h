@@ -14,6 +14,7 @@ public:
 	void setSpeed(float pSpeed);
 	float getSpeed();
 	bool fixCollision(float* oldPosition);
+	void LookAT(float* position);
 private:
 	float goalPosition[3] = { 0, 5, 0 };
 	float startPosition[3] = { 0, 5, 0 };

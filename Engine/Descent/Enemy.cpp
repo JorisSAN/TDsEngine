@@ -41,14 +41,25 @@ void Enemy::update()
 		lastTimeShot = Timer::getTime();
 		nextShotCD = static_cast <float> (2 + (rand()) / (static_cast <float> (RAND_MAX / 3)));
 		FirstPersonCharacter* player = static_cast<FirstPersonCharacter*>(Actor::getGame().searchActor("FirstPersonCharacter"));
-		float rotator[3];
-		rotator[0] = Maths::atan2(player->getWorldPosition()[1], player->getWorldPosition()[2]);
-		rotator[1] = Maths::atan2(player->getWorldPosition()[0] *Maths::cos(player->getWorldRotation()[0]), player->getWorldPosition()[2]);
-		rotator[2] = Maths::atan2(Maths::cos(player->getWorldRotation()[0]), Maths::sin(player->getWorldRotation()[0])* Maths::sin(player->getWorldRotation()[1]));
+		float xa = getActorForwardVector()[0];
+		float xb = player->getWorldPosition()[0] - getWorldPosition()[0];
+		float ya = getActorForwardVector()[1];
+		float yb = player->getWorldPosition()[1] - getWorldPosition()[1] ;
+		float za = getActorForwardVector()[2];
+		float zb = player->getWorldPosition()[2] -getWorldPosition()[2];
 
+		float rotator[3] = { 0,0,0 };
+		rotator[0] = Maths::acos((xa*xb +ya*yb)/(sqrt(xa*xa+ya*ya)*sqrt(xb*xb+yb*yb)));
+		rotator[1] = Maths::acos((xa * xb + ya * yb) / (sqrt(xa * xa + ya * ya) * sqrt(xb * xb + yb * yb)));
+		rotator[2] = Maths::acos((xa * xb + ya * yb) / (sqrt(xa * xa + ya * ya) * sqrt(xb * xb + yb * yb)));
+		
+		//lag intensif need instancing//
 		Balle* bullet = new Balle(&("bullet " + std::to_string(Timer::getTime()))[0]);
 		bullet->init();
 		bullet->setRotStartInstigator( rotator, getWorldPosition(), OwnerType::enemy);
+	
+
+
 	}
 	Actor::update(); // Imperatively after the modification
 

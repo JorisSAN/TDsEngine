@@ -43,6 +43,7 @@ void Balle::setRotStartInstigator(float* instRotation, float* pPos, OwnerType pI
 	lifeStart = Timer::getTime();
 
 }
+
 void Balle::setSpeed(float pSpeed)
 {
 	speed = pSpeed;
